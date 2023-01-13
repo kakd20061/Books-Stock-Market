@@ -1,0 +1,31 @@
+﻿@using Books_Stock_Market.Models.ViewModels
+@model SubjectEditViewModel
+
+@{
+    ViewData["Title"] = "Subject Edit Page";
+    Layout = "~/Views/Shared/_AdministrationLayout.cshtml";
+}
+
+<div class="container" style="margin-top:8em;">
+    <div class="form-background p-5">
+        <h1 class="text-center mb-5 section-title position-relative">Add New Subject</h1>
+        <form asp-action="AddSubject" class="text-lg-center mb-5">
+          <div class="mb-3">
+            <label for="UserMail" class="form-label">Subject Name</label>
+            <input asp-for="formData.SubjectName" type="text" class="form-control" id="SubjectName">
+          </div>
+
+          <center><button type="submit" class="btn btn-success w-75">Add</button></center>
+        </form>
+        <h1 class="text-center mb-5 section-title position-relative">Subject list</h1>
+        <ul class="list-group">
+            @foreach(var item in Model.Subjects)
+            {
+                <li class="list-group-item d-flex w-100 justify-content-between">
+                    <h5 class="mb-0"><i class="fa-regular fa-file-lines"></i> @item.SubjectName</h5>
+                    <small class="text-muted"><a asp-action = "DeleteSubject" asp-route-id = "@item.Id" class="btn btn-danger"><i class="fa-solid fa-trash fa-lg"></i></a></small>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

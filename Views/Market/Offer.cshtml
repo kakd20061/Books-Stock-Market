@@ -1,0 +1,58 @@
+﻿@using Books_Stock_Market.Models.ViewModels
+@model OfferViewModel
+
+@{
+    ViewData["Title"] = "Offer Page";
+}
+
+
+<h1>Create</h1>
+
+<h4>ImageModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddPhoto" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Image.Title" class="control-label"></label>
+                <input asp-for="Image.Title" class="form-control" />
+                <span asp-validation-for="Image.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image.ImageFile" for="formFileMultiple" class="form-label"></label>
+                <input asp-for="Image.ImageFile" accept="image/*" class="form-control" id="formFileMultiple" multiple />
+                <span asp-validation-for="Image.ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image.Price" class="control-label"></label>
+                <input asp-for="Image.Price"  class="form-control"/>
+                <span asp-validation-for="Image.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image.Description" class="control-label"></label>
+                <input asp-for="Image.Description"  class="form-control"/>
+                <span asp-validation-for="Image.Description" class="text-danger"></span>
+            </div>
+            <select class="form-select" asp-for="Image.Subject" id="subject" aria-label="Default select example">
+                  @foreach(var item in Model.Subjects)
+                    {
+                        @if(item.isChecked)
+                        {
+                         <option value="@item.SubjectName">@item.SubjectName</option>                           
+                        }
+                    }
+            </select>
+            <select class="form-select" asp-for="Image.Grade" id="grade" aria-label="Default select example">
+                <option value="1">1</option>                           
+                <option value="2">2</option>                           
+                <option value="3">3</option>                           
+                <option value="4">4</option>                           
+                <option value="5">5</option>                           
+            </select>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

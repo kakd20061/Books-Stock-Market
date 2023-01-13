@@ -1,0 +1,146 @@
+﻿@using Books_Stock_Market.Models.ViewModels
+@model AboutViewModel
+
+@{
+    ViewData["Title"] = "About Page";
+}
+<style>
+
+    
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+
+.carousel {
+    padding: 0 70px;
+}
+
+.carousel .carousel-item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+}
+
+.carousel .carousel-item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carousel .testimonial {
+    padding: 30px 0 10px;
+}
+
+.carousel .overview {
+    font-style: italic;
+}
+
+.carousel .overview b {
+    text-transform: uppercase;
+    color: #F95959;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+    margin: 1px 3px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-indicators li {
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.carousel-indicators li.active {
+    background: #555;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+</style>
+<div class="container-xl">
+    <div class="row m-3">
+            <div class="container py-5">
+              <div class="row h-100 align-items-center py-5">
+                <div class="col-lg-6">
+                  <h1 class="display-4">About us page</h1>
+                  <p class="lead text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi itaque doloribus vitae consequatur perspiciatis expedita ipsum ad, nihil excepturi dolorum? Iusto illo reprehenderit necessitatibus dolor nobis ipsum, obcaecati quod.</p>
+                  <p class="lead text-muted">Some more text
+                  </p>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="~/img/about.png" alt="" class="img-fluid" style="object-fit: fill;">                
+                </div>
+              </div>
+            </div>          
+    </div>
+      <div class="row mb-5">
+        <div class="col-lg-8 mx-auto">
+          <h2>Our Team</h2>
+          <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="img-box"><img src="~/img/kajt.jpg" alt=""></div>
+                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                <p class="overview"><b>Developer</b> Kajetan Dąbrowski</p>
+              </div>
+              <div class="carousel-item">
+                <div class="img-box"><img src="~/img/mich.jpg" alt=""></div>
+                <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                <p class="overview"><b>Designer</b> Michał Białożyt</p>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <button class="carousel-control-prev" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#aboutCarousel" data-bs-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="watermark text-center">
+    <a class="license-mark" href="https://pl.freepik.com/darmowe-wektory/ludzie-siedzacy-przy-polkach-z-ksiazkami-i-czytajacy-ksiazki-w-ksiegarni-studenci-studiujacy-w-bibliotece_16144915.htm#query=book%20shop&position=5&from_view=search&track=ais">Obraz autorstwa pch.vector na Freepik</a> 
+
+</div>

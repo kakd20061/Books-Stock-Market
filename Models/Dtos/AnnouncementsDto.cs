@@ -1,0 +1,70 @@
+﻿using Books_Stock_Market.Data.Entities;
+
+namespace Books_Stock_Market.Models.Dtos
+{
+    public class AnnouncementsDto
+    {
+        public int Id { get; set; }
+
+        public string Title { get; set; }
+
+        public string PhotoUrl { get; set; }
+
+        public string PhoneNumber { get; set; }
+
+        public string Name { get; set; }
+
+        public string Email { get; set; }
+
+        public string GradeNumber { get; set; }
+
+        public string Subject { get; set; }
+
+        public bool PhoneAgree { get; set; }
+        public bool isChecked { get; set; }
+        public bool isRejected { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+
+        public AnnouncementsDto()
+        {
+
+        }
+
+        public AnnouncementsDto(AnnouncementEntity entity) : base()
+        {
+            Id = entity.Id;
+            Title = entity.Title;
+            PhotoUrl = entity.PhotoUrl;
+            PhoneNumber = entity.PhoneNumber;
+            Name = entity.Name;
+            CreatedAt = entity.CreatedAt;
+            GradeNumber = entity.GradeNumber;
+            Subject = entity.Subject;
+            PhoneAgree = entity.PhoneAgree;
+            Email = entity.Email;
+            isChecked = entity.IsChecked;
+            isRejected = entity.IsRejected;
+        }
+
+        public AnnouncementEntity ParseToEntity(string UserId,string PhoneNumber, string Name, string Email, bool isChecked = false, bool isRejeceted = false)
+        {
+            return new AnnouncementEntity()
+            {
+                Id = this.Id,
+                Title = this.Title,
+                PhotoUrl = this.PhotoUrl,
+                PhoneNumber = PhoneNumber,
+                Name = Name,
+                CreatedAt = this.CreatedAt,
+                UserForeignKey = UserId,
+                GradeNumber = this.GradeNumber,
+                Subject = this.Subject,
+                PhoneAgree = this.PhoneAgree,
+                Email = Email,
+                IsChecked = isChecked,
+                IsRejected = isRejeceted
+            };
+        }
+    }
+}

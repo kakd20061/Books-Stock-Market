@@ -1,0 +1,46 @@
+﻿@using Books_Stock_Market.Models.ViewModels
+@model HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/ThirdSlide.png" style="height: 100vh; width: 100vw; object-fit:cover" class="d-block vw-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="carousel-captionh">Welcome</h5>
+          <p>We are happy to see you here!</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="img/FirstSlide.png" style="height: 100vh; width: 100vw; object-fit:cover" class="d-block vw-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="carousel-captionh">We got plenty of books!</h5>
+          <p>Join our community!</p>
+          <div class="carousel-btn"><a class="btn btn-danger" asp-area="identity" asp-page="/account/login">Sign in</a></div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/SecondSlide.png" style="height: 100vh; width: 100vw; object-fit:cover" class="d-block vw-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="carousel-captionh">Read about us</h5>
+          <div class="carousel-btn"><a class="btn btn-danger" asp-controller="Main" asp-action="About">Learn more</a></div>
+        </div>
+      </div>
+  </div>
+  <button style="opacity:0;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button style="opacity:0;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

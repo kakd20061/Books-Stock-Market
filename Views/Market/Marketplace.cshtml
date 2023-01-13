@@ -1,0 +1,212 @@
+﻿@using Books_Stock_Market.Models.ViewModels
+@model MarketplaceViewModel
+
+@{
+    ViewData["Title"] = "Marketplace Page";
+}
+<style>
+    #search-btn{
+    box-shadow: none;
+    }
+</style>
+
+<div class="modal" tabindex="-1"  id="mmessageModal">
+<div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add Message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form asp-action="MMessage">
+
+            Message: <input asp-for="modalData.Content" class="form-control" type="text"/>
+            <input asp-for="Id" id="offId" class="form-control" style="display:none" type="text" readonly/>
+            <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
+        </form> 
+      </div>    
+    </div>  
+</div>  
+</div>  
+
+
+  <div class="row  gx-0 mt-5">
+        <div class="col">
+            <form class="d-flex m-5" role="search">
+                <div class="box justify-content-center">
+
+                    <button class="btn" id="search-btn" type="submit"><i id="search-icon" class="fa fa-search"
+                            aria-hidden="true"></i></button>
+                    <input class="form-control me-2" id="searchbar" type="search" placeholder="Search"
+                        aria-label="Search">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row gx-0 m-3">
+        <div class="col">
+
+            <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                    class="fa-solid fa-bars"></i> Filters</button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Filters</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+
+
+                        <form>
+
+                            <div class="row me-2 ms-2 mb-2">
+                                <button class="btn btn-danger" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFilter1" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    Grade
+                                </button>
+                                <div class="collapse show p-3" id="collapseFilter1">
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            1st Grade
+                                        </label>
+                                    </div>
+
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            2nd Grade
+                                        </label>
+                                    </div>
+
+                                                                        <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            3rd Grade
+                                        </label>
+                                    </div>
+
+                                                                        <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            4th Grade
+                                        </label>
+                                    </div>
+
+                                                                        <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            5th Grade
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="row me-2 ms-2 mb-2">
+                                <button class="btn btn-danger" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFilter2" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    Subjects
+                                </button>
+                                <div class="collapse show p-3" id="collapseFilter2">
+                                    @foreach(var item in Model.Subjects)
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="@item.Id-fil">
+                                            <label class="form-check-label" for="@item.Id-fil">
+                                                @item.SubjectName
+                                            </label>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            <div class="row m-5">
+                                <button type="submit" class="btn btn-success">Save</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="col-auto">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Sort by
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li class="m-1">
+                        <div class="form-check mx-auto">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" style="height: 5px;" for="flexRadioDefault1">
+                                <p><i id="sort" class="fa-solid fa-arrow-up me-1"></i>By price: Low to high</p>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li class="m-1">
+                        <div class="form-check ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label me-1" style="height: 5px;" for="flexRadioDefault1">
+                                <p><i id="sort" class="fa-solid fa-arrow-down me-1"></i>By price: High to low</>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+        <div class="container mt-5">
+        <div class="row">
+            @foreach(var item in Model.Images)
+            {
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                    data-mdb-ripple-color="light">
+                    <img src="~/img/OfferImages/@item.ImageName"
+                      class="w-100" />
+                    <a href="#!">
+                      <div class="mask">
+                        <div class="d-flex justify-content-start align-items-end h-100">
+                          <h5><span class="badge bg-success ms-2"><i class="fa-solid fa-graduation-cap"></i> @item.Grade</span></h5>
+                        </div>
+                      </div>
+                      <div class="hover-overlay">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <a class="card-action2" onclick="setOffId(@item.Id)" data-bs-toggle="modal" data-bs-target="#mmessageModal"><i class="fas fa-comments fa-lg"></i></a>
+                    <h5 class="card-title mb-3">@item.Title</h5>
+                    <p><i class="fa-solid fa-list"></i> @item.Subject</p>
+                    <h6 class="mb-3"><i class="fa-solid fa-coins"></i> @item.Price zł</h6>
+                    <p class="mb-3"><i class="fa-solid fa-phone"></i> @item.Email</p>
+                  </div>
+                </div>
+              </div>
+            }
+    </div>
+</div>

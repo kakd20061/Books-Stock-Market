@@ -1,0 +1,73 @@
+﻿@using Books_Stock_Market.Models.ViewModels
+@using Books_Stock_Market.Services
+@model AnnouncementViewModel
+@inject IAdministrationViewModelProvider Admin;
+
+@{
+    ViewData["Title"] = "Announcement Page";
+}
+
+<div class="modal" tabindex="-1"  id="messageModal">
+<div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add Message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form asp-action="Message">
+
+            Message: <input asp-for="modalData.Content" class="form-control" type="text"/>
+            <input asp-for="Id" id="annId" class="form-control" style="display:none" type="text" readonly/>
+            <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
+        </form> 
+      </div>    
+    </div>  
+</div>  
+</div>  
+
+
+<div class="container" style="margin-top:8em;">
+      <div class="row">
+          @foreach(var item in Model.Announcements)
+          {
+            @if(item.isChecked && !item.isRejected)
+            {
+                <div class="col-md-3 mt-5 mb-5">
+                  <div class="card-sl h-100">
+                      <div class="card-image">
+                          <img
+                              src="@item.PhotoUrl" />
+                      </div>
+                      @if(Admin.AdminReturn(User.Identity?.Name))
+                        {
+                            <div class="text-center mb-3 delete-btn"><a asp-action = "DeleteAnnouncementAdmin" asp-route-id = "@item.Id" class="btn btn-danger"><i class="fa-solid fa-trash fa-lg"></i></a></div> 
+                        }
+                      <a class="card-action" onclick="setId(@item.Id)" data-bs-toggle="modal" data-bs-target="#messageModal"><i class="fas fa-comments fa-lg"></i></a><br/>
+                      <div class="card-heading">
+                          <i class="fa-solid fa-book"></i> @item.Title (<i class="fa-solid fa-graduation-cap"></i> @item.GradeNumber)
+                      </div>
+                      <div class="card-text">
+                          <i class="fa-solid fa-chalkboard-user"></i> @item.Subject
+                      </div>
+                      <div class="card-text">
+                          <i class="fa-solid fa-user"></i> @item.Name
+                      </div>
+                      <div class="card-text">
+                          <i class="fa-solid fa-calendar-days"></i> @item.CreatedAt
+                      </div>
+                      @if(item.PhoneAgree)
+                      {
+                            <h6 class="test"> <i class="fa-solid fa-envelope"></i> @item.Email</h6> 
+                            <h6 class="test"> <i class="fa-solid fa-phone"></i> @item.PhoneNumber</h6>
+                        }
+                        else
+                        {
+                            <h6 class="test"> <i class="fa-solid fa-envelope"></i> @item.Email</h6> 
+                        }
+                    </div>
+                </div>
+            }
+          }
+      </div>
+</div>

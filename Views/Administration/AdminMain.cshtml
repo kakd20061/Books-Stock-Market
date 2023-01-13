@@ -1,0 +1,132 @@
+﻿@using Books_Stock_Market.Models.ViewModels
+@model AdminMainViewModel
+
+@{
+    ViewData["Title"] = "Admin Home Page";
+    Layout = "~/Views/Shared/_AdministrationLayout.cshtml";
+}
+
+<div class="main-content" style="margin-top: 6em;">
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <h2 class="mb-2 text-center">Hi, you are on admin panel page</h2>
+        <div class="text-center mt-3">
+            <span>Here you can edit, add and delete elements on your page</span>
+        </div>
+        <div class="header-body">
+         <div class="contain">
+           <div class="row justify-content-center">
+            <div class="col mt-5">
+              <div class="card card-stats mb-4 mb-xl-0 card-background">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h2 class="card-title text-dark mb-0">User accounts registered </h2>
+                      <div class="text-center mt-3">
+                        <span class="h2 font-weight-bold text-danger mb-0"><i class="fa-solid fa-user"></i> @Model.UserCount</span>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <span class="badge rounded-pill bg-danger"><i class="fas fa-chart-bar"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-5">
+              <div class="card card-stats mb-4 mb-xl-0 card-background">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h2 class="card-title text-dark mb-0">Avaible Subjects</h2>
+                      <div class="text-center mt-3">
+                        <span class="h2 font-weight-bold text-danger mb-0"><i class="fa-solid fa-graduation-cap"></i> @Model.SubjectsCount</span>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <span class="badge rounded-pill bg-danger"><i class="fas fa-chart-bar"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+          <div class="row justify-content-center">
+            <div class="col mt-5">
+              <div class="card card-stats mb-4 mb-xl-0 card-background">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h2 class="card-title text-dark mb-0">Admin Accounts</h2>
+                      <div class="text-center mt-3">
+                        <span class="h2 font-weight-bold text-danger mb-0"><i class="fa-solid fa-hammer"></i> @Model.AdminsCount</span>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <span class="badge rounded-pill bg-danger"><i class="fas fa-chart-bar"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-5">
+              <div class="card card-stats mb-4 mb-xl-0 card-background">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h2 class="card-title text-dark mb-0">Published announcements</h2>
+                      <div class="text-center mt-3">
+                        <span class="h2 font-weight-bold text-danger mb-0"><i class="fa-solid fa-bullhorn"></i> @Model.AnnouncementsCount</span>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <span class="badge rounded-pill bg-danger"><i class="fas fa-chart-bar"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+                  <div class="row justify-content-center">
+            <div class="col mt-5">
+              <div class="card card-stats mb-4 mb-xl-0 card-background">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h2 class="card-title text-dark mb-0">You've got new requests</h2>
+                      <div class="text-center mt-3">
+                        <span class="h2 font-weight-bold text-danger mb-0"><i class="fa-solid fa-envelope"></i> @Model.RequestsCount</span>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <span class="badge rounded-pill bg-danger"><i class="fas fa-chart-bar"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-5">
+              <div class="card card-stats mb-4 mb-xl-0 card-background">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h2 class="card-title text-dark mb-0">Announcement Status</h2>
+                      <div class="text-center mt-3">
+                        <span class="h2 font-weight-bold text-danger mb-0"><i class="fa-solid fa-check text-success me-3"> @Model.AcceptedCount</i> <i class="fa-solid fa-spinner text-warning me-3"> @Model.InProgressCount</i> <i class="fa-solid fa-xmark text-danger me-3"> @Model.RejectedCount</i></span>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <span class="badge rounded-pill bg-danger"><i class="fas fa-chart-bar"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
