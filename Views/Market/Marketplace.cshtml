@@ -4,6 +4,7 @@
 @{
     ViewData["Title"] = "Marketplace Page";
 }
+
 <style>
     #search-btn{
         box-shadow: none;
@@ -127,13 +128,16 @@
                                 <div class="collapse show p-3" id="collapseFilter2">
                                     @foreach(var item in Model.Subjects)
                                     {
-                                        string formatted1 = item.SubjectName.Replace(" ", "-");
-                                        <div class="form-check">
-                                            <input class="form-check-input" name="subject" value="@formatted1" type="checkbox" id="@item.Id-fil">
-                                            <label class="form-check-label" for="@item.Id-fil">
-                                                @item.SubjectName
-                                            </label>
-                                        </div>
+                                        @if (item.isChecked)
+                                        {
+                                            string formatted1 = item.SubjectName.Replace(" ", "-");
+                                            <div class="form-check">
+                                                <input class="form-check-input" name="subject" value="@formatted1" type="checkbox" id="@item.Id-fil">
+                                                <label class="form-check-label" for="@item.Id-fil">
+                                                    @item.SubjectName
+                                                </label>
+                                            </div>
+                                        }
                                     }
                                 </div>
                             </div>
@@ -190,7 +194,7 @@
             <div class="col-lg-3 col-md-6 mb-4 cardHid grade-@item.Grade subject-@formatted">
                 <div class="card">
                   <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                    data-mdb-ripple-color="light">
+                    data-mdb-ripple-color="light" data-mdb-toggle="modal" data-mdb-target="#productModal" onclick="setDetails('../img/OfferImages/@item.ImageName', '@item.Title', '@item.Price','@item.Description','@item.Grade','@item.Subject','@item.Email')">
                     <img src="~/img/OfferImages/@item.ImageName"
                       class="w-100" />
                     <a href="#!">
@@ -214,5 +218,39 @@
                 </div>
               </div>
             }
+    </div>
+</div>
+
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-3 d-flex align-items-center">
+                        <img class="bg-image w-100" id="img" src="" />
+                    </div>
+                    <div class="col-lg-4 col-md-6 ">
+                        <h4 id="dtitle">Name</h4>
+                        <hr class="hr" />
+                        <p id="dprice">Price</p><br>
+                        <hr class="hr" />
+                        <p id="ddescription">Description</p><br>
+                        <hr class="hr" />
+                        <p id="dgrade">Grade</p><br>
+                        <hr class="hr" />
+                        <p id="dsubject">Subject</p><br>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <p class="mb-3" id="dmail"></p>
+                <button type="button" class="btn btn-danger" data-mdb-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
 </div>

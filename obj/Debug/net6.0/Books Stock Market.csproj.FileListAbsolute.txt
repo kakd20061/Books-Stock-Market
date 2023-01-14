@@ -561,3 +561,6 @@ D:\projektyVisualStudio\Books Stock Market\bin\Debug\net6.0\Microsoft.OpenApi.dl
 D:\projektyVisualStudio\Books Stock Market\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\projektyVisualStudio\Books Stock Market\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\projektyVisualStudio\Books Stock Market\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\projektyVisualStudio\Books Stock Market\bin\Debug\net6.0\package-lock.json
+D:\projektyVisualStudio\Books Stock Market\bin\Debug\net6.0\package.json
+D:\projektyVisualStudio\Books Stock Market\bin\Debug\net6.0\libman.json
