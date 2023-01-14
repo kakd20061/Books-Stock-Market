@@ -115,11 +115,11 @@ function setDetails(url, title, price, description, grade, subject, email) {
 
     imgUrl.src = url;
     dtitle.innerText = title;
-    dprice.innerText = price;
-    ddescription.innerText = description;
-    dgrade.innerText = grade;
-    dsubject.innerText = subject;
-    dmail.innerHTML = '<i class="fa-solid fa-phone"></i> '+email;
+    dprice.innerHTML = '<i class="fa-solid fa-coins me-2"></i>' + price + " zł";
+    ddescription.innerHTML = '<i class="fa-solid fa-bars me-2"></i>' + description;
+    dgrade.innerHTML = '<i class="fa-solid fa-graduation-cap me-2"></i>' + grade;
+    dsubject.innerHTML = '<i class="fa-solid fa-book me-2"></i>' + subject;
+    dmail.innerHTML = '<i class="fa-solid fa-phone me-2"></i>'+email;
 
     $("#img").blowup({
         "width": 250,

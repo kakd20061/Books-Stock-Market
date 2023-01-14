@@ -211,9 +211,9 @@
                   <div class="card-body">
                     <a class="card-action2" onclick="setOffId(@item.Id)" data-bs-toggle="modal" data-bs-target="#mmessageModal"><i class="fas fa-comments fa-lg"></i></a>
                     <h5 class="card-title mb-3 offtitle">@item.Title</h5>
-                    <p><i class="fa-solid fa-list"></i> @item.Subject</p>
-                    <h6 class="mb-3"><i class="fa-solid fa-coins"></i> @item.Price zł</h6>
-                    <p class="mb-3"><i class="fa-solid fa-phone"></i> @item.Email</p>
+                    <p><i class="fa-solid fa-book me-2"></i> @item.Subject</p>
+                    <h6 class="mb-3"><i class="fa-solid fa-coins me-2"></i> @item.Price zł</h6>
+                    <p class="mb-3"><i class="fa-solid fa-phone me-2"></i> @item.Email</p>
                   </div>
                 </div>
               </div>
@@ -234,21 +234,29 @@
                         <img class="bg-image w-100" id="img" src="" />
                     </div>
                     <div class="col-lg-4 col-md-6 ">
-                        <h4 id="dtitle">Name</h4>
-                        <hr class="hr" />
-                        <p id="dprice">Price</p><br>
-                        <hr class="hr" />
-                        <p id="ddescription">Description</p><br>
-                        <hr class="hr" />
-                        <p id="dgrade">Grade</p><br>
-                        <hr class="hr" />
-                        <p id="dsubject">Subject</p><br>
-
+                        <div class="row text-break">
+                            <h4 id="dtitle">Name</h4>
+                            <hr class="hr" />
+                        </div>
+                        <div class="row mt-2 mb-2">
+                            <p id="dprice">Price</p>
+                            <hr class="hr" />
+                        </div>
+                        <div class="row text-break mt-2 mb-2">
+                            <p id="ddescription">Description</p>
+                            <hr class="hr" />
+                        </div>
+                        <div class="row mt-2 mb-2">
+                            <p id="dgrade">Grade</p>
+                            <hr class="hr" />
+                        <div class="row mt-2 mb-2">
+                            <p id="dsubject">Subject</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="modal-footer justify-content-between">
-                <p class="mb-3" id="dmail"></p>
+                <p id="dmail"></p>
                 <button type="button" class="btn btn-danger" data-mdb-dismiss="modal">Close</button>
             </div>
         </div>
