@@ -1,0 +1,650 @@
+﻿++Rozwiązanie „Books Stock Market” ‎(liczba projektów: 1 z 1)
+i:{00000000-0000-0000-0000-000000000000}:Books Stock Market.sln
+++Books Stock Market
+i:{00000000-0000-0000-0000-000000000000}:Books Stock Market
+++Connected Services 
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5699
+++Properties
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\properties\
+++wwwroot
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\
+++css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\css\
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\
+++site.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\css\site.css
+++img
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\
+++OfferImages
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\
+++1233034754.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\1233034754.png
+++241075181_836456387260919_4209219839927961139_n232848932.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\241075181_836456387260919_4209219839927961139_n232848932.jpg
+++241075181_836456387260919_4209219839927961139_n233148323.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\241075181_836456387260919_4209219839927961139_n233148323.jpg
+++241075181_836456387260919_4209219839927961139_n233709095.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\241075181_836456387260919_4209219839927961139_n233709095.jpg
+++241075181_836456387260919_4209219839927961139_n234321715.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\241075181_836456387260919_4209219839927961139_n234321715.jpg
+++241075181_836456387260919_4209219839927961139_n235047172.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\241075181_836456387260919_4209219839927961139_n235047172.jpg
+++308308655_5580335332050016_145970524949750555_n231612004.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\308308655_5580335332050016_145970524949750555_n231612004.jpg
+++308308655_5580335332050016_145970524949750555_n231747545.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\308308655_5580335332050016_145970524949750555_n231747545.jpg
+++308308655_5580335332050016_145970524949750555_n233336777.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\308308655_5580335332050016_145970524949750555_n233336777.jpg
+++308308655_5580335332050016_145970524949750555_n233633105.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\308308655_5580335332050016_145970524949750555_n233633105.jpg
+++308308655_5580335332050016_145970524949750555_n233713159.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\308308655_5580335332050016_145970524949750555_n233713159.jpg
+++308308655_5580335332050016_145970524949750555_n234111036.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\308308655_5580335332050016_145970524949750555_n234111036.jpg
+++308308655_5580335332050016_145970524949750555_n234444983.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\308308655_5580335332050016_145970524949750555_n234444983.jpg
+++322030961_894073558274410_4220543303653453705_n234348805.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\322030961_894073558274410_4220543303653453705_n234348805.jpg
+++325096125_851688825943701_8231460490512432584_n233135428.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\325096125_851688825943701_8231460490512432584_n233135428.jpg
+++325096125_851688825943701_8231460490512432584_n233206320.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\325096125_851688825943701_8231460490512432584_n233206320.jpg
+++325096125_851688825943701_8231460490512432584_n234029937.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\325096125_851688825943701_8231460490512432584_n234029937.jpg
+++325104868_475912231398320_4812735812165045168_n233122946.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\325104868_475912231398320_4812735812165045168_n233122946.jpg
+++photo3231646794.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\photo3231646794.jpg
+++SecondSlide234246017.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\secondslide234246017.png
+++slide1230912318.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\slide1230912318.png
+++about.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\about.png
+++FirstSlide.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\firstslide.png
+++kajt.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\kajt.jpg
+++logo.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\logo.png
+++mich.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\mich.jpg
+++SecondSlide.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\secondslide.png
+++ThirdSlide.png
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\thirdslide.png
+++js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\js\
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\
+++site.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\js\site.js
+++lib
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\
+++bootstrap
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\
+++jquery
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery\
+++jquery-validation
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation-unobtrusive\
+++favicon.ico
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\favicon.ico
+++package.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\package.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\package.json
+++Zależności
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5698
+++Areas
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\
+++Identity
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\
+++Pages
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\
+++Account
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\
+++_ViewImports.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\_viewimports.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\_viewimports.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\_viewimports.cshtml
+++Lockout.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\lockout.cshtml
+++Login.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\login.cshtml
+++Logout.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\logout.cshtml
+++PageUser.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\pageuser.cs
+++Register.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\register.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\_validationscriptspartial.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\shared\_validationscriptspartial.cshtml
+++_ViewStart.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\_viewstart.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\_viewstart.cshtml
+++Controllers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\controllers\
+++AdministrationController.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\controllers\administrationcontroller.cs
+++MainController.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\controllers\maincontroller.cs
+++MarketController.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\controllers\marketcontroller.cs
+++Data
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\
+++Entities
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\
+++AdministrationEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\administrationentity.cs
+++AnnouncementEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\announcemententity.cs
+++ImageEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\imageentity.cs
+++MessageEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\messageentity.cs
+++MMessagesEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\mmessagesentity.cs
+++RespondMessageEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\respondmessageentity.cs
+++RespondMMessageEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\respondmmessageentity.cs
+++SubjectEntity.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\entities\subjectentity.cs
+++Migrations
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\
+++Repositories
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\
+++IAdministrationRespository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\iadministrationrespository.cs
+++IAnnouncementsRepository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\iannouncementsrepository.cs
+++IImageRepository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\iimagerepository.cs
+++IMessagesRepository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\imessagesrepository.cs
+++IMMessagesRepository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\immessagesrepository.cs
+++IRespondMessagesRepository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\irespondmessagesrepository.cs
+++ISubjectsRepository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\isubjectsrepository.cs
+++IUserRepository.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\repositories\iuserrepository.cs
+++Seeds
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\seeds\
+++FirstAdminSeeder.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\seeds\firstadminseeder.cs
+++SubjectsSeeder.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\seeds\subjectsseeder.cs
+++ApplicationDbContext.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\applicationdbcontext.cs
+++Models
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\
+++Dtos
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\
+++AdministrationDto.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\administrationdto.cs
+++AnnouncementsDto.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\announcementsdto.cs
+++ImagesDto.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\imagesdto.cs
+++MessagesDto.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\messagesdto.cs
+++MMessagesDto.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\mmessagesdto.cs
+++RespondMessagesDto.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\respondmessagesdto.cs
+++SubjectsDto.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\dtos\subjectsdto.cs
+++ViewModels
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\
+++AboutViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\aboutviewmodel.cs
+++AdminMainViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\adminmainviewmodel.cs
+++AdminManageViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\adminmanageviewmodel.cs
+++AnnouncementManageViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\announcementmanageviewmodel.cs
+++AnnouncementViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\announcementviewmodel.cs
+++EditOfferViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\editofferviewmodel.cs
+++ErrorViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\errorviewmodel.cs
+++HomeViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\homeviewmodel.cs
+++MarketplaceViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\marketplaceviewmodel.cs
+++MessagesViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\messagesviewmodel.cs
+++OfferViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\offerviewmodel.cs
+++RequestsViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\requestsviewmodel.cs
+++SubjectEditViewModel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\models\viewmodels\subjecteditviewmodel.cs
+++Services
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\services\
+++IAdministrationViewModelProvider.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\services\iadministrationviewmodelprovider.cs
+++IAnnouncementsViewModelProvider.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\services\iannouncementsviewmodelprovider.cs
+++Views
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\
+++Administration
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\administration\
+++AdminMain.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\administration\adminmain.cshtml
+++AdminManage.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\administration\adminmanage.cshtml
+++EditOffer.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\administration\editoffer.cshtml
+++Requests.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\administration\requests.cshtml
+++SubjectEdit.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\administration\subjectedit.cshtml
+++Main
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\main\
+++About.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\main\about.cshtml
+++Home.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\main\home.cshtml
+++Market
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\market\
+++Announcement.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\market\announcement.cshtml
+++AnnouncementManage.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\market\announcementmanage.cshtml
+++Marketplace.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\market\marketplace.cshtml
+++Messages.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\market\messages.cshtml
+++Offer.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\market\offer.cshtml
+++Shared
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\shared\
+++_AdministrationLayout.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\shared\_administrationlayout.cshtml
+++_Layout.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\shared\_loginpartial.cshtml
+++Error.cshtml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\shared\error.cshtml
+++appsettings.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\appsettings.json
+++Program.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\program.cs
+++README.md
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\readme.md
+++ScaffoldingReadMe.txt
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\scaffoldingreadme.txt
+++Lokalna baza danych SQL Server Express (lokalna) (ConnectionStrings:DefaultConnection)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5729
+++PublishProfiles
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\properties\publishprofiles\
+++launchSettings.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\properties\launchsettings.json
+++serviceDependencies.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\properties\servicedependencies.json
+++dist
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery\dist\
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery\license.txt
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++package-lock.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\package-lock.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\package-lock.json
+++Analizatory
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:analizatory
+++Pakiety
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:pakiety
+++Struktury
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:struktury
+++Lockout.cshtml.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\lockout.cshtml.cs
+++Login.cshtml.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\login.cshtml.cs
+++Logout.cshtml.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\logout.cshtml.cs
+++Register.cshtml.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\areas\identity\pages\account\register.cshtml.cs
+++00000000000000_CreateIdentitySchema.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\00000000000000_createidentityschema.cs
+++20221224091956_User Changing.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224091956_user changing.cs
+++20221224092711_New User Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224092711_new user update.cs
+++20221224093559_Announcements Table.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224093559_announcements table.cs
+++20221224093850_Announcements-PageUser Relation.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224093850_announcements-pageuser relation.cs
+++20221225150554_User Account Phone And Name Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221225150554_user account phone and name update.cs
+++20221225151943_Test User Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221225151943_test user update.cs
+++20221225190313_Announcement edit.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221225190313_announcement edit.cs
+++20221226194308_Subjects Table.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226194308_subjects table.cs
+++20221226200820_Basic Subjects Seeder.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226200820_basic subjects seeder.cs
+++20221226203901_Announcement Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226203901_announcement update.cs
+++20221226204502_Announcements Email.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226204502_announcements email.cs
+++20221227110617_Messages.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227110617_messages.cs
+++20221227110944_Messages Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227110944_messages update.cs
+++20221227111100_Announcement-Message Relation.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227111100_announcement-message relation.cs
+++20221227111612_Prepare for message-pageUser relation.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227111612_prepare for message-pageuser relation.cs
+++20221227112515_Messages-Announcement Relation.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227112515_messages-announcement relation.cs
+++20221228115111_Respond Messages.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221228115111_respond messages.cs
+++20221228115559_Responds Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221228115559_responds update.cs
+++20221228122057_Responds bool adding.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221228122057_responds bool adding.cs
+++20221229111034_Administration tabel.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229111034_administration tabel.cs
+++20221229112237_admin mails.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229112237_admin mails.cs
+++20221229114228_FirstAdmin Seed.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229114228_firstadmin seed.cs
+++20221229134817_Announcement Requests.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229134817_announcement requests.cs
+++20221229151219_subject update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229151219_subject update.cs
+++20221229191725_reject announcement update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229191725_reject announcement update.cs
+++20230101122017_images.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230101122017_images.cs
+++20230101131105_images update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230101131105_images update.cs
+++20230101131556_last update repairing.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230101131556_last update repairing.cs
+++20230102100451_images add subject.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230102100451_images add subject.cs
+++20230102111452_User and Images Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230102111452_user and images update.cs
+++20230102112207_User and Images Relation.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230102112207_user and images relation.cs
+++20230106113714_Image Grade Update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106113714_image grade update.cs
+++20230106114555_MMessages.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114555_mmessages.cs
+++20230106114643_MMessages Table.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114643_mmessages table.cs
+++20230106114816_MMessages - offer Relation.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114816_mmessages - offer relation.cs
+++20230106114929_MMessages - user reltion prepare.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114929_mmessages - user reltion prepare.cs
+++20230106115019_MMessages - user reltion.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106115019_mmessages - user reltion.cs
+++20230106124155_RespondMessage update.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106124155_respondmessage update.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\applicationdbcontextmodelsnapshot.cs
+++_Layout.cshtml.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\appsettings.development.json
+++FTPProfile.pubxml
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\properties\publishprofiles\ftpprofile.pubxml
+++serviceDependencies.local.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\properties\servicedependencies.local.json
+++jquery.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++MessagePackAnalyzer
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\users\kajetan\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\users\kajetan\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\users\kajetan\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\users\kajetan\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.12\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.2)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5724
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.12)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5725
+++Microsoft.AspNetCore.Identity.UI (6.0.12)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5728
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.12)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5721
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.12)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5722
+++Microsoft.EntityFrameworkCore.Tools (6.0.12)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5726
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.11)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5727
+++Swashbuckle.AspNetCore (6.3.0)
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:>5723
+++Microsoft.AspNetCore.App
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\microsoft.netcore.app
+++00000000000000_CreateIdentitySchema.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\00000000000000_createidentityschema.designer.cs
+++20221224091956_User Changing.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224091956_user changing.designer.cs
+++20221224092711_New User Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224092711_new user update.designer.cs
+++20221224093559_Announcements Table.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224093559_announcements table.designer.cs
+++20221224093850_Announcements-PageUser Relation.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221224093850_announcements-pageuser relation.designer.cs
+++20221225150554_User Account Phone And Name Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221225150554_user account phone and name update.designer.cs
+++20221225151943_Test User Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221225151943_test user update.designer.cs
+++20221225190313_Announcement edit.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221225190313_announcement edit.designer.cs
+++20221226194308_Subjects Table.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226194308_subjects table.designer.cs
+++20221226200820_Basic Subjects Seeder.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226200820_basic subjects seeder.designer.cs
+++20221226203901_Announcement Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226203901_announcement update.designer.cs
+++20221226204502_Announcements Email.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221226204502_announcements email.designer.cs
+++20221227110617_Messages.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227110617_messages.designer.cs
+++20221227110944_Messages Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227110944_messages update.designer.cs
+++20221227111100_Announcement-Message Relation.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227111100_announcement-message relation.designer.cs
+++20221227111612_Prepare for message-pageUser relation.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227111612_prepare for message-pageuser relation.designer.cs
+++20221227112515_Messages-Announcement Relation.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221227112515_messages-announcement relation.designer.cs
+++20221228115111_Respond Messages.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221228115111_respond messages.designer.cs
+++20221228115559_Responds Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221228115559_responds update.designer.cs
+++20221228122057_Responds bool adding.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221228122057_responds bool adding.designer.cs
+++20221229111034_Administration tabel.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229111034_administration tabel.designer.cs
+++20221229112237_admin mails.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229112237_admin mails.designer.cs
+++20221229114228_FirstAdmin Seed.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229114228_firstadmin seed.designer.cs
+++20221229134817_Announcement Requests.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229134817_announcement requests.designer.cs
+++20221229151219_subject update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229151219_subject update.designer.cs
+++20221229191725_reject announcement update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20221229191725_reject announcement update.designer.cs
+++20230101122017_images.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230101122017_images.designer.cs
+++20230101131105_images update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230101131105_images update.designer.cs
+++20230101131556_last update repairing.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230101131556_last update repairing.designer.cs
+++20230102100451_images add subject.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230102100451_images add subject.designer.cs
+++20230102111452_User and Images Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230102111452_user and images update.designer.cs
+++20230102112207_User and Images Relation.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230102112207_user and images relation.designer.cs
+++20230106113714_Image Grade Update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106113714_image grade update.designer.cs
+++20230106114555_MMessages.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114555_mmessages.designer.cs
+++20230106114643_MMessages Table.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114643_mmessages table.designer.cs
+++20230106114816_MMessages - offer Relation.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114816_mmessages - offer relation.designer.cs
+++20230106114929_MMessages - user reltion prepare.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106114929_mmessages - user reltion prepare.designer.cs
+++20230106115019_MMessages - user reltion.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106115019_mmessages - user reltion.designer.cs
+++20230106124155_RespondMessage update.Designer.cs
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\data\migrations\20230106124155_respondmessage update.designer.cs
+++bootstrap.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++npm
+++blowup - niezainstalowany
+++blowup (1.0.2)
+++libman.json
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\libman.json
+++320485694_1479172612606120_113261680736006356_n233418271.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\320485694_1479172612606120_113261680736006356_n233418271.jpg
+++320485694_1479172612606120_113261680736006356_n234000165.jpg
+i:{695a4173-513d-49c5-b817-e6cb4b30048b}:d:\projektyvisualstudio\books stock market\wwwroot\img\offerimages\320485694_1479172612606120_113261680736006356_n234000165.jpg
