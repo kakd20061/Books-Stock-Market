@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+X8mlBLxiy6GPZjkHR4tahbBLlu1uN6Xg5l39OYmvMU=",
+  "Hash": "e1krYpidbkzoX4v6jg7wakYVk8vdPEd7LPaaiMkFdtA=",
   "Source": "Books Stock Market",
   "BasePath": "_content/Books Stock Market",
   "Mode": "Default",
@@ -1256,6 +1256,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234321715.jpg"
+    },
+    {
+      "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n235047172.jpg",
+      "SourceId": "Books Stock Market",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\",
+      "BasePath": "_content/Books Stock Market",
+      "RelativePath": "img/OfferImages/241075181_836456387260919_4209219839927961139_n235047172.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n235047172.jpg"
     },
     {
       "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n231612004.jpg",
