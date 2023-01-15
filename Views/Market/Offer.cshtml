@@ -85,6 +85,9 @@
                         <p><i class="fa-solid fa-book me-2"></i> @item.Subject</p>
                         <h6 class="mb-3"><i class="fa-solid fa-coins me-2"></i> @item.Price zł</h6>
                         <p class="mb-3"><i class="fa-solid fa-phone me-2"></i> @item.Email</p>
+                        <form asp-action="OfferRemove" asp-route-id="@item.Id" class="mb-2 text-center" id="@item.Id-offer">
+                          <button class="mt-3 btn btn-danger" style="width:10em;" form="@item.Id-offer" type="submit">Delete<i class="bi bi-dash-circle"></i></button>
+                        </form>
                       </div>
                     </div>
                   </div>

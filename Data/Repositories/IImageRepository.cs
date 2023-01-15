@@ -8,6 +8,10 @@ namespace Books_Stock_Market.Data.Repositories
         bool Add(ImageEntity entity);
         ICollection<ImageEntity> All();
         ICollection<ImageEntity> All(string id);
+
+        ImageEntity One(int id);
+
+        bool Delete(int id);
     }
     public class ImageRepository : IImageRepository
     {
@@ -34,6 +38,21 @@ namespace Books_Stock_Market.Data.Repositories
             entity.CreatedAt = DateTime.UtcNow;
             entity.UpdatedAt = DateTime.UtcNow;
             _dbContext.Images.Add(entity);
+            return _dbContext.SaveChanges() > 0;
+        }
+
+
+        public ImageEntity One(int id)
+        {
+            return _dbContext.Images.FirstOrDefault(n => n.Id == id) ?? new ImageEntity();
+        }
+
+        public bool Delete(int id)
+        {
+            var entity = One(id);
+            if (entity.Title != null && entity.Title != "")
+                _dbContext.Images.Remove(entity);
+
             return _dbContext.SaveChanges() > 0;
         }
 

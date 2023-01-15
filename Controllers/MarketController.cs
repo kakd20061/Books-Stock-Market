@@ -151,6 +151,12 @@ namespace Books_Stock_Market.Controllers
             return RedirectToAction("AnnouncementManage", "Market");
         }
 
+        public IActionResult OfferRemove(int Id)
+        {
+            var viewModel = _AnnouncementsViewModelProvider.OfferRemove(Id);
+            return RedirectToAction("Offer", "Market");
+        }
+
         public IActionResult Marketplace()
         {
             var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceViewModel();

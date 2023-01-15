@@ -28,6 +28,8 @@ namespace Books_Stock_Market.Services
 
         bool AddImage(ImagesDto model, string UserId, string Email);
 
+        bool OfferRemove(int Id);
+
         OfferViewModel PrepareOfferViewModel(string id);
     }
 
@@ -177,6 +179,12 @@ namespace Books_Stock_Market.Services
         public bool Remove(int Id)
         {
             _announcementsRepository.Delete(Id);
+            return true;
+        }
+
+        public bool OfferRemove(int Id)
+        {
+            _imageRepository.Delete(Id);
             return true;
         }
 
