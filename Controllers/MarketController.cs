@@ -168,7 +168,10 @@ namespace Books_Stock_Market.Controllers
 
         public IActionResult Offer()
         {
-            var viewModel = _AnnouncementsViewModelProvider.PrepareOfferViewModel();
+            var userName = User.Identity?.Name;
+            var user = _dbContext.Users.FirstOrDefault(x => x.UserName == userName);
+
+            var viewModel = _AnnouncementsViewModelProvider.PrepareOfferViewModel(user.Id);
             return View(viewModel);
         }
 

@@ -59,3 +59,35 @@
                 </form>
       </div>
 </div>
+<div class="container mb-5">
+    <div class="row">
+        @foreach(var item in Model.Offers)
+        {
+                  <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                      <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                        data-mdb-ripple-color="light">
+                        <img src="~/img/OfferImages/@item.ImageName"
+                          class="w-100" />
+                        <a href="#!">
+                          <div class="mask">
+                            <div class="d-flex justify-content-start align-items-end h-100">
+                              <h5><span class="badge bg-success ms-2"><i class="fa-solid fa-graduation-cap"></i> @item.Grade</span></h5>
+                            </div>
+                          </div>
+                          <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">@item.Title</h5>
+                        <p><i class="fa-solid fa-book me-2"></i> @item.Subject</p>
+                        <h6 class="mb-3"><i class="fa-solid fa-coins me-2"></i> @item.Price zł</h6>
+                        <p class="mb-3"><i class="fa-solid fa-phone me-2"></i> @item.Email</p>
+                      </div>
+                    </div>
+                  </div>
+        }
+    </div>
+</div>

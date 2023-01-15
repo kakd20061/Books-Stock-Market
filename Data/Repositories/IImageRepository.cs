@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Books_Stock_Market.Data.Repositories
 {
@@ -6,6 +7,7 @@ namespace Books_Stock_Market.Data.Repositories
     {
         bool Add(ImageEntity entity);
         ICollection<ImageEntity> All();
+        ICollection<ImageEntity> All(string id);
     }
     public class ImageRepository : IImageRepository
     {
@@ -19,6 +21,11 @@ namespace Books_Stock_Market.Data.Repositories
         public ICollection<ImageEntity> All()
         {
             return _dbContext.Images.Select(n => n).ToList();
+        }
+
+        public ICollection<ImageEntity> All(string id)
+        {
+            return _dbContext.Images.Include(n =>n.pageUser).Select(n => n).Where(n=>n.UserForeignKey == id).ToList();
         }
 
         public bool Add(ImageEntity entity)

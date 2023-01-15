@@ -8,5 +8,7 @@ namespace Books_Stock_Market.Models.ViewModels
         public ImagesDto Image;
 
         public ICollection<SubjectsDto> Subjects;
+
+        public ICollection<ImagesDto> Offers;
     }
 }

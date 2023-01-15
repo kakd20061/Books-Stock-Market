@@ -28,7 +28,7 @@ namespace Books_Stock_Market.Services
 
         bool AddImage(ImagesDto model, string UserId, string Email);
 
-        OfferViewModel PrepareOfferViewModel();
+        OfferViewModel PrepareOfferViewModel(string id);
     }
 
     public class AnnouncementsViewModelProvider : IAnnouncementsViewModelProvider
@@ -107,14 +107,18 @@ namespace Books_Stock_Market.Services
             };
         }
 
-        public OfferViewModel PrepareOfferViewModel()
+        public OfferViewModel PrepareOfferViewModel(string id)
         {
             var subjects = _subjectsRepository.All();
             var procesed = subjects.Select(n => new SubjectsDto(n)).ToList();
+            var offers = _imageRepository.All(id); 
+            var procesed2 = offers.Select(n => new ImagesDto(n)).ToList();
+
 
             return new OfferViewModel()
             {
                 Subjects = procesed,
+                Offers = procesed2
             };
         }
 
