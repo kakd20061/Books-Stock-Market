@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Books Stock Market.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Books Stock Market.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\FirstSlide.png",
+      "PackagePath": "staticwebassets\\img\\FirstSlide.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\1233034754.png",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\1233034754.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n232848932.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n232848932.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n233148323.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n233148323.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n233709095.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n233709095.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234321715.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234321715.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n235047172.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n235047172.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n230528286.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n230528286.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n231612004.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n231612004.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n231747545.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n231747545.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n233336777.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n233336777.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n233633105.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n233633105.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n233713159.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n233713159.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n234111036.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n234111036.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n234444983.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n234444983.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n234528007.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\308308655_5580335332050016_145970524949750555_n234528007.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\320485694_1479172612606120_113261680736006356_n233418271.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\320485694_1479172612606120_113261680736006356_n233418271.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\320485694_1479172612606120_113261680736006356_n234000165.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\320485694_1479172612606120_113261680736006356_n234000165.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\322030961_894073558274410_4220543303653453705_n234348805.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\322030961_894073558274410_4220543303653453705_n234348805.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n233135428.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n233135428.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n233206320.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n233206320.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n234029937.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n234029937.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n234131222.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\325096125_851688825943701_8231460490512432584_n234131222.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\325104868_475912231398320_4812735812165045168_n233122946.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\325104868_475912231398320_4812735812165045168_n233122946.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\SecondSlide234246017.png",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\SecondSlide234246017.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\photo3231646794.jpg",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\photo3231646794.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\slide1230912318.png",
+      "PackagePath": "staticwebassets\\img\\OfferImages\\slide1230912318.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\SecondSlide.png",
+      "PackagePath": "staticwebassets\\img\\SecondSlide.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\ThirdSlide.png",
+      "PackagePath": "staticwebassets\\img\\ThirdSlide.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\about.png",
+      "PackagePath": "staticwebassets\\img\\about.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\kajt.jpg",
+      "PackagePath": "staticwebassets\\img\\kajt.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\mich.jpg",
+      "PackagePath": "staticwebassets\\img\\mich.jpg"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\package-lock.json",
+      "PackagePath": "staticwebassets\\package-lock.json"
+    },
+    {
+      "Id": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Books Stock Market.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Books Stock Market.props",
+      "PackagePath": "build\\Books Stock Market.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Books Stock Market.props",
+      "PackagePath": "buildMultiTargeting\\Books Stock Market.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Books Stock Market.props",
+      "PackagePath": "buildTransitive\\Books Stock Market.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

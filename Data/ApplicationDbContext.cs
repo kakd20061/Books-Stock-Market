@@ -3,6 +3,7 @@ using Books_Stock_Market.Data.Entities;
 using Books_Stock_Market.Data.Seeds;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using static NuGet.Packaging.PackagingConstants;
 
 namespace Books_Stock_Market.Data
 {
