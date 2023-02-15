@@ -126,3 +126,17 @@ function setDetails(url, title, price, description, grade, subject, email) {
         "height": 250
     });
 }
+
+function SetAllData() {
+    const content = document.getElementById('content');
+    const type = document.getElementById('type');
+    const searchBar = document.getElementById('searchbar');
+    console.log(content.value);
+    content.value = searchBar.value;
+
+    var checked_gender = document.querySelector('input[name = "order"]:checked');
+
+    type.value = checked_gender.value;
+
+    return true;
+}

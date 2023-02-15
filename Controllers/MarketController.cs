@@ -157,17 +157,33 @@ namespace Books_Stock_Market.Controllers
             return RedirectToAction("Offer", "Market");
         }
 
-        public IActionResult Marketplace(string content = null)
+        public IActionResult Marketplace(string content = null, string type = null)
         {
             if(content == null)
             {
-                var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceViewModel();
-                return View(viewModel);
+                if (type == null)
+                {
+                    var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceViewModel();
+                    return View(viewModel);
+                }
+                else
+                {
+                    var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceWithOrderViewModel(type);
+                    return View(viewModel);
+                }
             }
             else
             {
-                var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceWithSearchViewModel(content);
-                return View(viewModel);
+                if (type == null)
+                {
+                    var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceWithSearchViewModel(content);
+                    return View(viewModel);
+                }
+                else
+                {
+                    var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceWithOrderViewModel(type,content);
+                    return View(viewModel);
+                }
             }
         }
 

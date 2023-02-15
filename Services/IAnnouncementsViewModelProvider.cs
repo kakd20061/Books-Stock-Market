@@ -13,7 +13,7 @@ namespace Books_Stock_Market.Services
 
         MarketplaceViewModel PrepareMarketplaceViewModel();
         MarketplaceViewModel PrepareMarketplaceWithSearchViewModel(string content);
-
+        MarketplaceViewModel PrepareMarketplaceWithOrderViewModel(string type, string content = null);
         bool ValidateCreate(AnnouncementsDto model, ModelStateDictionary modelState);
 
         bool Add(AnnouncementsDto model, string user, string number, string name, string email, bool isChecked);
@@ -123,6 +123,21 @@ namespace Books_Stock_Market.Services
                 Images = procesed2
             };
         }
+
+        public MarketplaceViewModel PrepareMarketplaceWithOrderViewModel(string type,string content=null)
+        {
+            var subjects = _subjectsRepository.All();
+            var procesed = subjects.Select(n => new SubjectsDto(n)).ToList();
+            var offers = _imageRepository.Order(type,content);
+            var procesed2 = offers.Select(n => new ImagesDto(n)).ToList();
+
+            return new MarketplaceViewModel()
+            {
+                Subjects = procesed,
+                Images = procesed2
+            };
+        }
+
         public OfferViewModel PrepareOfferViewModel(string id)
         {
             var subjects = _subjectsRepository.All();

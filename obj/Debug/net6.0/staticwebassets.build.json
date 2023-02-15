@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4qW7e+3hhYHfpCCSXq9zZEXPVLvTsHhqsYp9WEVnoqA=",
+  "Hash": "4KUJUrEXtwGdNcO8LBBErnBMgH6vAqdXs4dp6yUEo0k=",
   "Source": "Books Stock Market",
   "BasePath": "_content/Books Stock Market",
   "Mode": "Default",
@@ -1207,6 +1207,23 @@
       "OriginalItemSpec": "wwwroot\\img\\OfferImages\\1233034754.png"
     },
     {
+      "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\20230128_165031234328214.jpg",
+      "SourceId": "Books Stock Market",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\",
+      "BasePath": "_content/Books Stock Market",
+      "RelativePath": "img/OfferImages/20230128_165031234328214.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OfferImages\\20230128_165031234328214.jpg"
+    },
+    {
       "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n232848932.jpg",
       "SourceId": "Books Stock Market",
       "SourceType": "Discovered",
@@ -1273,6 +1290,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234321715.jpg"
+    },
+    {
+      "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234406155.jpg",
+      "SourceId": "Books Stock Market",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\",
+      "BasePath": "_content/Books Stock Market",
+      "RelativePath": "img/OfferImages/241075181_836456387260919_4209219839927961139_n234406155.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234406155.jpg"
+    },
+    {
+      "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234511569.jpg",
+      "SourceId": "Books Stock Market",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\",
+      "BasePath": "_content/Books Stock Market",
+      "RelativePath": "img/OfferImages/241075181_836456387260919_4209219839927961139_n234511569.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n234511569.jpg"
     },
     {
       "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\241075181_836456387260919_4209219839927961139_n235047172.jpg",
@@ -1579,6 +1630,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\OfferImages\\325104868_475912231398320_4812735812165045168_n233122946.jpg"
+    },
+    {
+      "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\326807701_872944357276719_7837845401349412800_n234308279.jpg",
+      "SourceId": "Books Stock Market",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\",
+      "BasePath": "_content/Books Stock Market",
+      "RelativePath": "img/OfferImages/326807701_872944357276719_7837845401349412800_n234308279.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OfferImages\\326807701_872944357276719_7837845401349412800_n234308279.jpg"
     },
     {
       "Identity": "D:\\projektyVisualStudio\\Books Stock Market\\wwwroot\\img\\OfferImages\\photo3231646794.jpg",

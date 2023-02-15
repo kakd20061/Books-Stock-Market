@@ -9,6 +9,7 @@ namespace Books_Stock_Market.Data.Repositories
         ICollection<ImageEntity> All();
         ICollection<ImageEntity> All(string id);
         ICollection<ImageEntity> Search(string content);
+        ICollection<ImageEntity> Order(string type,string content);
         ImageEntity One(int id);
 
         bool Delete(int id);
@@ -35,6 +36,32 @@ namespace Books_Stock_Market.Data.Repositories
         public ICollection<ImageEntity> Search(string content)
         {
             return _dbContext.Images.Select(n => n).Where(n => n.Title.ToLower().Contains(content.ToLower())).ToList();
+        }
+
+        public ICollection<ImageEntity> Order(string type,string content = null)
+        {
+            if(content != null)
+            {
+                if(type == "asc")
+                {
+                    return _dbContext.Images.Select(n => n).Where(n => n.Title.ToLower().Contains(content.ToLower())).OrderBy(n=>n.Price).ToList();
+                }
+                else
+                {
+                    return _dbContext.Images.Select(n => n).Where(n => n.Title.ToLower().Contains(content.ToLower())).OrderByDescending(n => n.Price).ToList();
+                }
+            }
+            else
+            {
+                if (type == "asc")
+                {
+                    return _dbContext.Images.Select(n => n).OrderBy(n => n.Price).ToList();
+                }
+                else
+                {
+                    return _dbContext.Images.Select(n => n).OrderByDescending(n => n.Price).ToList();
+                }
+            }
         }
 
         public bool Add(ImageEntity entity)
