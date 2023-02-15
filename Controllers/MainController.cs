@@ -18,6 +18,11 @@ namespace Books_Stock_Market.Controllers
             return View();
         }
 
+        public IActionResult RegisterSummary()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             return View();
