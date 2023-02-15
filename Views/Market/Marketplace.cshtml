@@ -3,8 +3,8 @@
 
 @{
     ViewData["Title"] = "Marketplace Page";
+    
 }
-
 <style>
     #search-btn{
         box-shadow: none;
@@ -33,13 +33,13 @@
 
   <div class="row  gx-0 mt-5">
         <div class="col">
-            <form class="d-flex m-5" role="search">
+            <form class="d-flex m-5" role="search" asp-action="Marketplace">
                 <div class="box justify-content-center">
 
                     <button class="btn" id="search-btn" type="submit"><i id="search-icon" class="fa fa-search"
                             aria-hidden="true"></i></button>
-                    <input class="form-control me-2" id="searchbar" type="search" placeholder="Search"
-                        aria-label="Search">
+                    <input class="form-control me-2" asp-for="content" id="searchbar" type="search" placeholder="Search"
+                        aria-label="Search" onchange="">
                 </div>
             </form>
         </div>
@@ -188,7 +188,7 @@
 
         <div class="container mt-5">
         <div class="row">
-            @foreach(var item in Model.Images)
+            @foreach (var item in Model.Images)
             {
             string formatted = item.Subject.Replace(" ", "-");
             <div class="col-lg-3 col-md-6 mb-4 cardHid grade-@item.Grade subject-@formatted">

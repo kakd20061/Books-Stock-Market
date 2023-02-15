@@ -157,10 +157,18 @@ namespace Books_Stock_Market.Controllers
             return RedirectToAction("Offer", "Market");
         }
 
-        public IActionResult Marketplace()
+        public IActionResult Marketplace(string content = null)
         {
-            var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceViewModel();
-            return View(viewModel);
+            if(content == null)
+            {
+                var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceViewModel();
+                return View(viewModel);
+            }
+            else
+            {
+                var viewModel = _AnnouncementsViewModelProvider.PrepareMarketplaceWithSearchViewModel(content);
+                return View(viewModel);
+            }
         }
 
         public IActionResult Messages()

@@ -9,5 +9,6 @@ namespace Books_Stock_Market.Models.ViewModels
 
         public MMessagesDto modalData { get; set; }
         public int Id { get; set; }
+        public string content { get; set; }
     }
 }

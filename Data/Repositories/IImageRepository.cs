@@ -8,7 +8,7 @@ namespace Books_Stock_Market.Data.Repositories
         bool Add(ImageEntity entity);
         ICollection<ImageEntity> All();
         ICollection<ImageEntity> All(string id);
-
+        ICollection<ImageEntity> Search(string content);
         ImageEntity One(int id);
 
         bool Delete(int id);
@@ -30,6 +30,11 @@ namespace Books_Stock_Market.Data.Repositories
         public ICollection<ImageEntity> All(string id)
         {
             return _dbContext.Images.Include(n =>n.pageUser).Select(n => n).Where(n=>n.UserForeignKey == id).ToList();
+        }
+
+        public ICollection<ImageEntity> Search(string content)
+        {
+            return _dbContext.Images.Select(n => n).Where(n => n.Title.ToLower().Contains(content.ToLower())).ToList();
         }
 
         public bool Add(ImageEntity entity)
