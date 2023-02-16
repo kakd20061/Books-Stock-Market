@@ -4,104 +4,101 @@
     ViewData["Title"] = "Register";
 }
 
-<h1>@ViewData["Title"]</h1>
+<div class="h-100 d-flex align-items-center justify-content-center" style="margin-top:7rem; margin-bottom:4rem;">
+    <div class="col col-lg-5 col-md-5 position-relative">
+        <span class="form-loader-bg">
+        </span>
+        <div class="form-container">
+            <h1 class="card-title text-center">Welcome back</h1>
+            <center>
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-circle mt-3" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+            </center>
+            <hr />
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row g-3"></div>
 
-    <div class="login-area" style="margin-top:3em; margin-bottom:8em;">
-           <div class="global-container">
-               <div class="card login-form">
-                   <div class="card-body">
-                       <h1 class="card-title text-center">Create Account</h1>
-                       <center>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-circle mt-3" viewBox="0 0 16 16">
-                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                        </svg>
-                        </center>
-                        <hr />
-                        <div class="card-text  bg-modern">
-                            <form  id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <div class="row g-3"></div>
-           
-                        <div class="col">
-                            <div class="form-group">
-                                <label asp-for="Input.Email" for="inputName">Email</label>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text" id="mailIcon"><i class="fa-solid fa-envelope"></i></span>
-                                    <input  asp-for="Input.Email"  autocomplete="username" aria-required="true" 
-                                           class="form-control form-control-sm"
-                                           id="inputName" aria-describedby="mailIcon"/>
-                                </div>
-                                <span asp-validation-for="Input.Email" class="text-danger"></span>
-
-                            </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="Input.Email" for="inputName">Email</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="mailIcon"><i class="fa-solid fa-envelope"></i></span>
+                            <input asp-for="Input.Email" autocomplete="username" aria-required="true"
+                                   class="form-control form-control-sm"
+                                   id="inputName" aria-describedby="mailIcon" />
                         </div>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
 
-                        <div class="col">
-                            <div class="form-group">
-                                <label asp-for="Input.Name" for="inputFullName">Full Name</label>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text" id="nameIcon"><i class="fa-solid fa-user"></i></span>
-                                    <input  asp-for="Input.Name" aria-required="true" 
-                                       class="form-control form-control-sm"
-                                       id="inputFullName" aria-describedby = "nameIcon"/>
-                                </div>
-                                <span asp-validation-for="Input.Name" class="text-danger"></span>
-                            </div>
-                        </div>
+                    </div>
+                </div>
 
-                        <div class="col">
-                            <div class="form-group">
-                                <label asp-for="Input.PhoneNumber" for="inputPhone">Phone Number</label>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text" id="phoneIcon"><i class="fa-solid fa-phone"></i></span>
-                                    <input  asp-for="Input.PhoneNumber" type="text" aria-required="true" 
-                                       class="form-control form-control-sm"
-                                       id="inputPhone" aria-describedby="phoneIcon"/>
-                                </div>
-                                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-                            </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="Input.Name" for="inputFullName">Full Name</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="nameIcon"><i class="fa-solid fa-user"></i></span>
+                            <input asp-for="Input.Name" aria-required="true"
+                                   class="form-control form-control-sm"
+                                   id="inputFullName" aria-describedby="nameIcon" />
                         </div>
+                        <span asp-validation-for="Input.Name" class="text-danger"></span>
+                    </div>
+                </div>
 
-                        <div class="col">
-                            <div class="form-group">
-                                <label asp-for="Input.Password" for="inputSurname">Password</label>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text" id="passIcon"><i class="fa-solid fa-lock"></i></span>
-                                    <input asp-for="Input.Password" autocomplete="new-password" aria-required="true"
-                                       class="form-control form-control-sm"
-                                       id="inputSurname" aria-describedby="passIcon"/>
-                                </div>
-                                <span asp-validation-for="Input.Password" class="text-danger"></span>
-                            </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="Input.PhoneNumber" for="inputPhone">Phone Number</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="phoneIcon"><i class="fa-solid fa-phone"></i></span>
+                            <input asp-for="Input.PhoneNumber" type="text" aria-required="true"
+                                   class="form-control form-control-sm"
+                                   id="inputPhone" aria-describedby="phoneIcon" />
                         </div>
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
 
-                            <div class="col">
-                                <div class="form-group">
-                                <label asp-for="Input.ConfirmPassword" for="inputemail">Confirm password</label>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text" id="rpassIcon"><i class="fa-solid fa-lock-open"></i></span>
-                                    <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true"
-                                    class="form-control form-control-sm"
-                                    id="inputemail" aria-describedby="rpassIcon"/>
-                                </div>
-                                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                                </div>
-                            </div>
-                        <div class="form-group text-center">
-                            <button type="submit" class="btn btn-danger btn-block">Create account!</button>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="Input.Password" for="inputSurname">Password</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="passIcon"><i class="fa-solid fa-lock"></i></span>
+                            <input asp-for="Input.Password" autocomplete="new-password" aria-required="true"
+                                   class="form-control form-control-sm"
+                                   id="inputSurname" aria-describedby="passIcon" />
                         </div>
-                        <div class="signin">
-                            Already have an account?<a asp-area="Identity" asp-page="Login"> Log in!</a>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="Input.ConfirmPassword" for="inputemail">Confirm password</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="rpassIcon"><i class="fa-solid fa-lock-open"></i></span>
+                            <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true"
+                                   class="form-control form-control-sm"
+                                   id="inputemail" aria-describedby="rpassIcon" />
                         </div>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-danger btn-block">Create account!</button>
+                </div>
+                <div class="signin">
+                    Already have an account?<a asp-area="Identity" asp-page="Login"> Log in!</a>
+                </div>
 
 
-                    </form>
-                        </div>
-                   </div>
-               </div>
-           </div>
+            </form>
+        </div>
+
     </div>
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

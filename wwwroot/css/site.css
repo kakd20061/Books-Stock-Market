@@ -1,6 +1,6 @@
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     font-weight: 400;
     background-color: white;
     font-size: 16px;
@@ -9,8 +9,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow: overlay;
     font-family: poppins;
-    z-index:5;
+    z-index: 5;
 }
+
 
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
@@ -33,19 +34,20 @@ input[type="search"]::-webkit-search-results-decoration {
     border-radius: 100vw;
 }
 
-main{
-    width:100%;
-    height:100%;
-
+main {
+    width: 100%;
+    height: 100%;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     transition: all 0.3s ease;
 }
+
 .navbar-light .navbar-nav .nav-link {
     transition: all 0.3s ease;
 }
+
 .navbar-nav .nav-link:hover {
     color: #F95959;
 }
@@ -58,21 +60,8 @@ main{
     z-index: 10;
 }
 
-
-.login-area {
-    padding-top: 2%;
-}
-
 .form-control {
     border: 2px solid #000;
-}
-
-.global-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(112,112,113);
 }
 
 #registerForm {
@@ -93,12 +82,26 @@ main{
     background-color: #F8F9FA !important;
 }
 
-.login-form {
-    width: 480px;
-    height: auto;
-    margin: 20px;
-    background-color: #F8F9FA !important;
+.form-container {
     border-radius: 10px !important;
+    background-color: #F8F9FA !important;
+    opacity: 1;
+    padding: 5%;
+    animation: appear 2s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /*input[type="email"],
@@ -119,14 +122,15 @@ input[type="date"]
     background-position: right 0.75rem center;
     background-size: 16px 12px;
 }
+
 .input-group-text {
     border: 2px solid gray;
-    border-right:none;
+    border-right: none;
 }
 
-.input-group-text i {
-    color: gray;
-}
+    .input-group-text i {
+        color: gray;
+    }
 
 .loginbtn {
     width: 30%
@@ -136,14 +140,57 @@ input[type="date"]
     margin-top: 10px;
 }
 
-.signin a {
-    color: grey;
-    transition: all 0.3s ease;
+    .signin a {
+        color: grey;
+        transition: all 0.3s ease;
+    }
+
+        .signin a:hover {
+            color: #dc3545;
+        }
+
+.form-loader-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-width: 0;
+    background-color: #F8F9FA !important;
+    width: 5px;
+    border-radius: 10px;
+    height: 5px;
+    opacity: 0;
+    animation: dissapear 1.5s;
 }
 
-.signin a:hover {
-    color: #dc3545;
+@keyframes dissapear {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        height: 100%;
+        top: 0%;
+        left: 50%;
+        width: 5px;
+    }
+
+    75% {
+        opacity: 1;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        width: 100%
+    }
+
+    100% {
+        opacity: 1;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        width: 100%
+    }
 }
+
 
 .form-background {
     border-radius: 8px;
@@ -218,6 +265,7 @@ input[type="date"]
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.3s ease;
 }
+
 .card-action:hover {
     color: #fff;
     cursor: pointer;
@@ -226,7 +274,7 @@ input[type="date"]
 }
 
 .card-action2:hover {
-    cursor:pointer;
+    cursor: pointer;
     color: #fff;
     background: #E26D5C;
     -webkit-animation: pulse 1.5s infinite;
@@ -249,19 +297,19 @@ input[type="date"]
     bottom: auto;
 }
 
-.carousel-caption .carousel-captionh {
-    font-size: 40px;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
-    font-weight: 500;
-}
+    .carousel-caption .carousel-captionh {
+        font-size: 40px;
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+        font-weight: 500;
+    }
 
-.carousel-caption .carousel-btn .btn {
-    font-size: 20px;
-}
+    .carousel-caption .carousel-btn .btn {
+        font-size: 20px;
+    }
 
-.carousel-caption .carousel-btn {
-    text-shadow: none;
-}
+    .carousel-caption .carousel-btn {
+        text-shadow: none;
+    }
 
 .section-title::before {
     content: "";
