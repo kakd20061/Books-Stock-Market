@@ -1,5 +1,51 @@
 ﻿@using Books_Stock_Market.Models.ViewModels;
 @model RegisterSummaryViewModel
+@{
+    Layout = "";
+}
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Summary</title>
+    <script src="https://kit.fontawesome.com/48d022ce54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/css/site.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+    <script src="~/js/site.js"></script>
+</head>
 
-<p>test</p>
+<body>
+    <main>
+        <div id="bg-loading"></div>
+        <div class="container justify-content-center d-flex align-items-center vw-100 vh-100">
+            <div id="myProgress">
+                <div id="myBar"></div>
+            </div>
+
+            <div class="text-center flex-column">
+                <span id="countdown"></span>
+                <div class="corners">
+                    <div class="top left"></div>
+                    <div class="top right"></div>
+                    <div class="bottom right"></div>
+                    <div class="bottom left"></div>
+                    <h1 class="text-dark">Take a screenshot of your login data <i class="fa-solid fa-photo-film"></i></h1>
+                    <p class="fs-4 text-dark">
+                        <span class="fw-bold"><i class="fa-solid fa-envelopes-bulk"></i> Email:</span>
+                        @Model.email
+                    </p>
+                    <p class="fs-4 text-dark"><span class="fw-bold"><i class="fa-solid fa-lock"></i> Password:</span> @Model.password</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+
+</html>

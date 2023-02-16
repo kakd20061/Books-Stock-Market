@@ -157,7 +157,7 @@ namespace Books_Stock_Market.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        return RedirectToAction("RegisterSummary", "Main", new {password = Input.Password, email = Input.Email});
                     }
                 }
                 foreach (var error in result.Errors)

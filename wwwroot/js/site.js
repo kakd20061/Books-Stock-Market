@@ -140,3 +140,19 @@ function SetAllData() {
 
     return true;
 }
+
+var timeleft = 20;
+var downloadTimer = setInterval(function () {
+    if (timeleft <= 0) {
+        clearInterval(downloadTimer);
+        if (document.getElementById("countdown") != null) {
+            document.getElementById("countdown").innerHTML = "Finished";
+            window.location.href = "/";
+        }
+    } else {
+        if (document.getElementById("countdown") != null) {
+            document.getElementById("countdown").innerHTML = "You have " + timeleft + " seconds left";
+        }
+    }
+    timeleft -= 1;
+}, 1000);

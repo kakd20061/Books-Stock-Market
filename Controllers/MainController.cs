@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Models;
+using Books_Stock_Market.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -18,20 +19,19 @@ namespace Books_Stock_Market.Controllers
             return View();
         }
 
-        public IActionResult RegisterSummary()
+        public IActionResult RegisterSummary(string password, string email)
         {
-            return View();
+            return View(new RegisterSummaryViewModel() 
+            { 
+                password=password, 
+                email=email
+            });
+
         }
 
         public IActionResult About()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
