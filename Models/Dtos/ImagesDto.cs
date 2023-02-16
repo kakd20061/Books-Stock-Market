@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using Books_Stock_Market.Enums;
 
 namespace Books_Stock_Market.Models.Dtos
 {
@@ -23,6 +24,7 @@ namespace Books_Stock_Market.Models.Dtos
         public string Grade { get; set; }
 
         public DateTime CreatedAt { get; set; }
+        public StatusEnum Status { get; set; }
 
         public ImagesDto()
         {
@@ -41,6 +43,7 @@ namespace Books_Stock_Market.Models.Dtos
             Subject = entity.Subject;
             Email = entity.Email;
             Grade = entity.Grade;
+            Status = entity.Status;
         }
 
         public ImageEntity ParseToEntity(string Email, string UserId)
@@ -57,7 +60,8 @@ namespace Books_Stock_Market.Models.Dtos
                 Subject = this.Subject,
                 Email = Email,
                 UserForeignKey = UserId,
-                Grade = this.Grade
+                Grade = this.Grade,
+                Status = StatusEnum.InProgress
             };
         }
     }

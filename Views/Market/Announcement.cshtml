@@ -31,8 +31,6 @@
       <div class="row">
           @foreach(var item in Model.Announcements)
           {
-            @if(item.isChecked && !item.isRejected)
-            {
                 <div class="col-md-3 mt-5 mb-5">
                   <div class="card-sl h-100">
                       <div class="card-image">
@@ -67,7 +65,6 @@
                         }
                     </div>
                 </div>
-            }
           }
       </div>
 </div>

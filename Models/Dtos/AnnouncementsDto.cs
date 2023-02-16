@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using Books_Stock_Market.Enums;
 
 namespace Books_Stock_Market.Models.Dtos
 {
@@ -21,8 +22,7 @@ namespace Books_Stock_Market.Models.Dtos
         public string Subject { get; set; }
 
         public bool PhoneAgree { get; set; }
-        public bool isChecked { get; set; }
-        public bool isRejected { get; set; }
+        public StatusEnum Status { get; set; }
 
         public DateTime CreatedAt { get; set; }
 
@@ -43,8 +43,7 @@ namespace Books_Stock_Market.Models.Dtos
             Subject = entity.Subject;
             PhoneAgree = entity.PhoneAgree;
             Email = entity.Email;
-            isChecked = entity.IsChecked;
-            isRejected = entity.IsRejected;
+            Status = entity.Status;
         }
 
         public AnnouncementEntity ParseToEntity(string UserId,string PhoneNumber, string Name, string Email, bool isChecked = false, bool isRejeceted = false)
@@ -62,8 +61,7 @@ namespace Books_Stock_Market.Models.Dtos
                 Subject = this.Subject,
                 PhoneAgree = this.PhoneAgree,
                 Email = Email,
-                IsChecked = isChecked,
-                IsRejected = isRejeceted
+                Status = StatusEnum.InProgress
             };
         }
     }

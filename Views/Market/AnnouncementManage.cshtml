@@ -40,10 +40,7 @@
               <select class="form-select" asp-for="formData.Subject" id="subject" aria-label="Default select example">
                   @foreach(var item in Model.Subjects)
                     {
-                        @if(item.isChecked)
-                        {
                          <option value="@item.SubjectName">@item.SubjectName</option>                           
-                        }
                     }
                 </select>
           </div>
@@ -86,15 +83,15 @@
                       <i class="fa-solid fa-calendar-days"></i> @item.CreatedAt
                   </div>
                   <h6 class="test"> <i class="fa-solid fa-phone"></i> @item.PhoneNumber</h6>
-                  @if(item.isRejected)
+                  @if(item.Status == Books_Stock_Market.Enums.StatusEnum.Rejected)
                     {
                         <h6 class="test text-danger">Status: Rejected </h6>
                     }
-                    else if(!item.isRejected && !item.isChecked)
+                    else if (item.Status == Books_Stock_Market.Enums.StatusEnum.InProgress)
                     {
                         <h6 class="test text-warning">Status: In progress </h6>
                     }
-                    else if(item.isChecked && !item.isRejected)
+                    else if (item.Status == Books_Stock_Market.Enums.StatusEnum.Accepted)
                     {
                         <h6 class="test text-success">Status: Accepted </h6>
                     }

@@ -10,6 +10,7 @@
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
                 <button class="nav-link active" id="incoming" data-bs-toggle="tab" data-bs-target="#nav-announcement" type="button" role="tab" aria-controls="nav-announcement" aria-selected="true">Announcements</button>
                 <button class="nav-link" id="responds" data-bs-toggle="tab" data-bs-target="#nav-subjects" type="button" role="tab" aria-controls="nav-subjects" aria-selected="false">Subjects</button>
+            <button class="nav-link" id="responds" data-bs-toggle="tab" data-bs-target="#offers" type="button" role="tab" aria-controls="offers" aria-selected="false">Offers</button>
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
@@ -17,8 +18,6 @@
                   <div class="row">
                       @foreach(var item in Model.Announcements)
                       {
-                        @if(!item.isChecked && !item.isRejected)
-                        {
                             <div class="col-md-3 mt-5 mb-5">
                               <div class="card-sl h-100">
                                   <div class="card-image">
@@ -50,7 +49,6 @@
                                     <div class="text-center mb-3"><a class="btn btn-success" asp-action="AcceptAnn" asp-route-id="@item.Id"><i class="fa-solid fa-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="RejectAnn" asp-route-id="@item.Id"><i class="fa-solid fa-circle-xmark fa-lg"></i></a></div>
                                 </div>
                             </div>
-                        }
                       }
                     </div>
                     </div>
@@ -58,16 +56,47 @@
                         <ul class="list-group"> 
                           @foreach(var item in Model.Subjects)
                           {
-                            @if(!item.isChecked)
-                            {
-                                <li class="list-group-item">
-                                    @item.SubjectName 
-
-                                    <div class="float-end mb-3"><a class="btn btn-success" asp-action="AcceptSubject" asp-route-id="@item.Id"><i class="fa-solid fa-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="RejectSubject" asp-route-id="@item.Id"><i class="fa-solid fa-circle-xmark fa-lg"></i></a></div>
-                                </li>
-                            }
+                               <li class="list-group-item">
+                                   @item.SubjectName 
+                               
+                                   <div class="float-end mb-3"><a class="btn btn-success" asp-action="AcceptSubject" asp-route-id="@item.Id"><i class="fa-solid fa-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="RejectSubject" asp-route-id="@item.Id"><i class="fa-solid fa-circle-xmark fa-lg"></i></a></div>
+                               </li>
                           }
                         </ul>
                     </div>
+                    <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade" id="offers" role="tabpanel" aria-labelledby="offers-tab">
+                            <div class="row">
+                                @foreach (var item in Model.Images)
+                                {
+                                    <div class="col-lg-3 col-md-6 mb-4 cardHid">
+                                        <div class="card">
+                                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                         data-mdb-ripple-color="light">
+                                                <img src="~/img/OfferImages/@item.ImageName"
+                                             class="w-100" />
+                                                <a href="#!">
+                                                    <div class="mask">
+                                                        <div class="d-flex justify-content-start align-items-end h-100">
+                                                            <h5><span class="badge bg-success ms-2"><i class="fa-solid fa-graduation-cap"></i> @item.Grade</span></h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title mb-3 offtitle">@item.Title</h5>
+                                                <p><i class="fa-solid fa-book me-2"></i> @item.Subject</p>
+                                                <h6 class="mb-3"><i class="fa-solid fa-coins me-2"></i> @item.Price zł</h6>
+                                                <p class="mb-3"><i class="fa-solid fa-phone me-2"></i> @item.Email</p>
+                                                <div class="text-center mb-3"><a class="btn btn-success" asp-action="AcceptOffer" asp-route-id="@item.Id"><i class="fa-solid fa-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="RejectOffer" asp-route-id="@item.Id"><i class="fa-solid fa-circle-xmark fa-lg"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+            </div>
             </div>
         </div>

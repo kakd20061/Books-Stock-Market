@@ -145,6 +145,13 @@ namespace Books_Stock_Market.Controllers
             return RedirectToAction("Announcement", "Market");
         }
 
+        public IActionResult DeleteOfferAdmin(int id)
+        {
+            var delete = _AnnouncementsViewModelProvider.OfferRemove(id);
+
+            return RedirectToAction("Marketplace", "Market");
+        }
+
         public IActionResult Remove(int Id)
         {
             var viewModel = _AnnouncementsViewModelProvider.Remove(Id);

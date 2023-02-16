@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using Books_Stock_Market.Enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace Books_Stock_Market.Data.Repositories
@@ -7,6 +8,7 @@ namespace Books_Stock_Market.Data.Repositories
     {
         ICollection<AnnouncementEntity> All(string Id);
         ICollection<AnnouncementEntity> All();
+        ICollection<AnnouncementEntity> All(StatusEnum status);
 
         int Count();
 
@@ -55,6 +57,11 @@ namespace Books_Stock_Market.Data.Repositories
             return _dbContext.Announcements.Include(n=>n.pageUser).Select(n => n).Where(n=>n.UserForeignKey == Id).ToList();
         }
 
+        public ICollection<AnnouncementEntity> All(StatusEnum status)
+        {
+            return _dbContext.Announcements.Select(n => n).Where(n=>n.Status == status).ToList();
+        }
+
         public int Count()
         {
             return _dbContext.Announcements.Count();
@@ -62,17 +69,17 @@ namespace Books_Stock_Market.Data.Repositories
 
         public int CountPublished()
         {
-            return _dbContext.Announcements.Count(n => n.IsChecked == true && n.IsRejected == false);
+            return _dbContext.Announcements.Count(n => n.Status == Enums.StatusEnum.Accepted);
         }
 
         public int CountRequested()
         {
-            return _dbContext.Announcements.Count(n => n.IsChecked == false && n.IsRejected == false);
+            return _dbContext.Announcements.Count(n => n.Status == Enums.StatusEnum.InProgress);
         }
 
         public int RejectedCount()
         {
-            return _dbContext.Announcements.Count(n => n.IsRejected == true);
+            return _dbContext.Announcements.Count(n => n.Status == Enums.StatusEnum.Rejected);
         }
 
         public bool Delete(int id)
@@ -87,7 +94,7 @@ namespace Books_Stock_Market.Data.Repositories
         public bool Accept(int id)
         {
             var entity = One(id);
-            entity.IsChecked = true;
+            entity.Status = Enums.StatusEnum.Accepted;
             _dbContext.Announcements.Update(entity);
 
             return _dbContext.SaveChanges() > 0;
@@ -96,7 +103,7 @@ namespace Books_Stock_Market.Data.Repositories
         public bool Reject(int id)
         {
             var entity = One(id);
-            entity.IsRejected = true;
+            entity.Status = Enums.StatusEnum.Rejected;
             _dbContext.Announcements.Update(entity);
 
             return _dbContext.SaveChanges() > 0;

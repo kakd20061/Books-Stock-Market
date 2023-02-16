@@ -6,5 +6,6 @@ namespace Books_Stock_Market.Models.ViewModels
     {
         public ICollection<AnnouncementsDto> Announcements { get; set; }
         public ICollection<SubjectsDto> Subjects { get; set; }
+        public ICollection<ImagesDto> Images { get; set; }
     }
 }

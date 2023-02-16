@@ -57,7 +57,7 @@ namespace Books_Stock_Market.Services
         {
             var announcements = _announcementsRepository.All(user);
             var procesed = announcements.Select(n => new AnnouncementsDto(n)).ToList();
-            var subjects = _subjectsRepository.All();
+            var subjects = _subjectsRepository.All(Enums.StatusEnum.Accepted);
             var procesed2 = subjects.Select(n => new SubjectsDto(n)).ToList();
 
             return new AnnouncementManageViewModel()
@@ -69,7 +69,7 @@ namespace Books_Stock_Market.Services
 
         public AnnouncementViewModel PrepareAnnouncementsViewModel()
         {
-            var announcements = _announcementsRepository.All();
+            var announcements = _announcementsRepository.All(Enums.StatusEnum.Accepted);
             var procesed = announcements.Select(n => new AnnouncementsDto(n)).ToList();
 
             return new AnnouncementViewModel()
@@ -98,9 +98,9 @@ namespace Books_Stock_Market.Services
 
         public MarketplaceViewModel PrepareMarketplaceViewModel()
         {
-            var subjects = _subjectsRepository.All();
+            var subjects = _subjectsRepository.All(Enums.StatusEnum.Accepted);
             var procesed = subjects.Select(n => new SubjectsDto(n)).ToList();
-            var offers = _imageRepository.All();
+            var offers = _imageRepository.All(Enums.StatusEnum.Accepted);
             var procesed2 = offers.Select(n => new ImagesDto(n)).ToList();
 
             return new MarketplaceViewModel()
@@ -112,7 +112,7 @@ namespace Books_Stock_Market.Services
 
         public MarketplaceViewModel PrepareMarketplaceWithSearchViewModel(string content)
         {
-            var subjects = _subjectsRepository.All();
+            var subjects = _subjectsRepository.All(Enums.StatusEnum.Accepted);
             var procesed = subjects.Select(n => new SubjectsDto(n)).ToList();
             var offers = _imageRepository.Search(content);
             var procesed2 = offers.Select(n => new ImagesDto(n)).ToList();
@@ -126,7 +126,7 @@ namespace Books_Stock_Market.Services
 
         public MarketplaceViewModel PrepareMarketplaceWithOrderViewModel(string type,string content=null)
         {
-            var subjects = _subjectsRepository.All();
+            var subjects = _subjectsRepository.All(Enums.StatusEnum.Accepted);
             var procesed = subjects.Select(n => new SubjectsDto(n)).ToList();
             var offers = _imageRepository.Order(type,content);
             var procesed2 = offers.Select(n => new ImagesDto(n)).ToList();
@@ -140,7 +140,7 @@ namespace Books_Stock_Market.Services
 
         public OfferViewModel PrepareOfferViewModel(string id)
         {
-            var subjects = _subjectsRepository.All();
+            var subjects = _subjectsRepository.All(Enums.StatusEnum.Accepted);
             var procesed = subjects.Select(n => new SubjectsDto(n)).ToList();
             var offers = _imageRepository.All(id); 
             var procesed2 = offers.Select(n => new ImagesDto(n)).ToList();

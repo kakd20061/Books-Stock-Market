@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Areas.Identity.Pages.Account;
+using Books_Stock_Market.Enums;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Books_Stock_Market.Data.Entities
@@ -32,6 +33,7 @@ namespace Books_Stock_Market.Data.Entities
 
         public DateTime UpdatedAt { get; set; }
 
+        public StatusEnum Status { get; set; }
         public ImageEntity()
         {
             CreatedAt = DateTime.UtcNow;

@@ -28,6 +28,11 @@ namespace Books_Stock_Market.Services
         bool RejectSubject(int Id);
 
         bool AcceptSubject(int Id);
+
+        bool RejectOffer(int Id);
+
+        bool AcceptOffer(int Id);
+
         bool AddSubject(SubjectsDto formData);
     }
 
@@ -39,8 +44,9 @@ namespace Books_Stock_Market.Services
         private readonly IRespondMessagesRepository _respondMessagesRepository;
         private readonly IAdministrationRepository _administrationRepository;
         private readonly IUserRepository _userRepository;
+        private readonly IImageRepository _imageRepository;
 
-        public AdministrationViewModelProvider(IAnnouncementsRepository announcementsRepository, ISubjectRepository subjectsRepository, IMessagesRepository messagesRepository, IRespondMessagesRepository respondMessagesRepository, IAdministrationRepository administrationRepository, IUserRepository userRepository)
+        public AdministrationViewModelProvider(IAnnouncementsRepository announcementsRepository, ISubjectRepository subjectsRepository, IMessagesRepository messagesRepository, IRespondMessagesRepository respondMessagesRepository, IAdministrationRepository administrationRepository, IUserRepository userRepository, IImageRepository imageRepository)
         {
             _announcementsRepository = announcementsRepository;
             _subjectsRepository = subjectsRepository;
@@ -48,6 +54,7 @@ namespace Books_Stock_Market.Services
             _respondMessagesRepository = respondMessagesRepository;
             _administrationRepository = administrationRepository;
             _userRepository = userRepository;
+            _imageRepository = imageRepository;
         }
 
         public AdminManageViewModel PrepareAdminManageViewModel()
@@ -63,7 +70,7 @@ namespace Books_Stock_Market.Services
         }
         public SubjectEditViewModel PrepareSubjectsEditViewModel()
         {
-            var subjects = _subjectsRepository.All();
+            var subjects = _subjectsRepository.All(Enums.StatusEnum.Accepted);
             var procesed = subjects.Select(n => new SubjectsDto(n)).ToList();
 
             return new SubjectEditViewModel()
@@ -79,7 +86,7 @@ namespace Books_Stock_Market.Services
             var Admins = _administrationRepository.Count();
             var Subjects = _subjectsRepository.Count();
             var Announcements = _announcementsRepository.CountPublished();
-            var Requests = _announcementsRepository.CountRequested()+_subjectsRepository.CountRequested();
+            var Requests = _announcementsRepository.CountRequested()+_subjectsRepository.CountRequested()+_imageRepository.CountRequested();
             var InProgress = _announcementsRepository.CountRequested();
             var Rejected = _announcementsRepository.RejectedCount();
 
@@ -98,14 +105,17 @@ namespace Books_Stock_Market.Services
         }
         public RequestsViewModel PrepareRequestsViewModel()
         {
-            var announcements = _announcementsRepository.All();
+            var announcements = _announcementsRepository.All(Enums.StatusEnum.InProgress);
             var procesed = announcements.Select(n => new AnnouncementsDto(n)).ToList();
-            var subjects = _subjectsRepository.All();
+            var subjects = _subjectsRepository.All(Enums.StatusEnum.InProgress);
             var procesed2 = subjects.Select(n => new SubjectsDto(n)).ToList();
+            var images = _imageRepository.All(Enums.StatusEnum.InProgress);
+            var procesed3 = images.Select(n => new ImagesDto(n)).ToList();
             return new RequestsViewModel()
             {
                 Announcements = procesed,
-                Subjects = procesed2
+                Subjects = procesed2,
+                Images = procesed3
             };
         }
 
@@ -164,6 +174,20 @@ namespace Books_Stock_Market.Services
         public bool AcceptSubject(int Id)
         {
             _subjectsRepository.Accept(Id);
+
+            return true;
+        }
+
+        public bool RejectOffer(int Id)
+        {
+            _imageRepository.Reject(Id);
+
+            return true;
+        }
+
+        public bool AcceptOffer(int Id)
+        {
+            _imageRepository.Accept(Id);
 
             return true;
         }

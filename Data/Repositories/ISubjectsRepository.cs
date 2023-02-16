@@ -1,10 +1,12 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using Books_Stock_Market.Enums;
 
 namespace Books_Stock_Market.Data.Repositories
 {
     public interface ISubjectRepository
     {
         ICollection<SubjectEntity> All();
+        ICollection<SubjectEntity> All(StatusEnum status);
 
         int Count();
         int CountRequested();
@@ -42,7 +44,10 @@ namespace Books_Stock_Market.Data.Repositories
         {
             return _dbContext.Subjects.Select(n => n).ToList();
         }
-
+        public ICollection<SubjectEntity> All(StatusEnum status)
+        {
+            return _dbContext.Subjects.Select(n => n).Where(n=>n.Status == status).ToList();
+        }
         public int Count()
         {
             return _dbContext.Subjects.Count();
@@ -50,7 +55,7 @@ namespace Books_Stock_Market.Data.Repositories
 
         public int CountRequested()
         {
-            return _dbContext.Subjects.Count(n=>n.IsChecked == false);
+            return _dbContext.Subjects.Count(n=>n.Status == StatusEnum.InProgress);
         }
 
         public bool Delete(int id)
@@ -65,7 +70,7 @@ namespace Books_Stock_Market.Data.Repositories
         public bool Accept(int id)
         {
             var entity = One(id);
-            entity.IsChecked = true;
+            entity.Status = StatusEnum.Accepted;
             _dbContext.Subjects.Update(entity);
 
             return _dbContext.SaveChanges() > 0;

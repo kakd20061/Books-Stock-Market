@@ -1,6 +1,7 @@
 ﻿@using Books_Stock_Market.Models.ViewModels
+@using Books_Stock_Market.Services;
 @model MarketplaceViewModel
-
+@inject IAdministrationViewModelProvider Admin;
 @{
     ViewData["Title"] = "Marketplace Page";
     
@@ -128,8 +129,6 @@
                                 <div class="collapse show p-3" id="collapseFilter2">
                                     @foreach(var item in Model.Subjects)
                                     {
-                                        @if (item.isChecked)
-                                        {
                                             string formatted1 = item.SubjectName.Replace(" ", "-");
                                             <div class="form-check">
                                                 <input class="form-check-input" name="subject" value="@formatted1" type="checkbox" id="@item.Id-fil">
@@ -137,7 +136,6 @@
                                                     @item.SubjectName
                                                 </label>
                                             </div>
-                                        }
                                     }
                                 </div>
                             </div>
@@ -221,6 +219,10 @@
                     <p><i class="fa-solid fa-book me-2"></i> @item.Subject</p>
                     <h6 class="mb-3"><i class="fa-solid fa-coins me-2"></i> @item.Price zł</h6>
                     <p class="mb-3"><i class="fa-solid fa-phone me-2"></i> @item.Email</p>
+                    @if (Admin.AdminReturn(User.Identity?.Name))
+                    {
+                        <div class="text-center text-center"><a asp-action="DeleteOfferAdmin" asp-route-id="@item.Id" class="btn btn-danger"><i class="fa-solid fa-trash fa-lg"></i></a></div>
+                    }
                   </div>
                 </div>
               </div>

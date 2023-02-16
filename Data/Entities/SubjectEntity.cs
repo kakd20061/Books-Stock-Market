@@ -1,4 +1,6 @@
-﻿namespace Books_Stock_Market.Data.Entities
+﻿using Books_Stock_Market.Enums;
+
+namespace Books_Stock_Market.Data.Entities
 {
     public class SubjectEntity
     {
@@ -6,7 +8,7 @@
 
         public string SubjectName { get; set; }
 
-        public bool IsChecked { get; set; }
+        public StatusEnum Status { get; set; }
 
         public DateTime CreatedAt { get; set; }
 
@@ -16,7 +18,6 @@
         {
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
-            IsChecked = false;
         }
     }
 }

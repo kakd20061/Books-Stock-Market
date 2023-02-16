@@ -3,6 +3,7 @@ using System;
 using Books_Stock_Market.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Books_Stock_Market.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230216172237_subject update")]
+    partial class subjectupdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.12");
@@ -41,9 +43,9 @@ namespace Books_Stock_Market.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1188),
+                            CreatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(5006),
                             Email = "gizard.biznes123@vp.pl",
-                            UpdatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1189)
+                            UpdatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(5007)
                         });
                 });
 
@@ -64,6 +66,12 @@ namespace Books_Stock_Market.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("IsChecked")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsRejected")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -78,9 +86,6 @@ namespace Books_Stock_Market.Migrations
                     b.Property<string>("PhotoUrl")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Subject")
                         .IsRequired()
@@ -307,34 +312,34 @@ namespace Books_Stock_Market.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1149),
+                            CreatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4971),
                             Status = 0,
                             SubjectName = "J. Angielski",
-                            UpdatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1151)
+                            UpdatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4973)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1168),
+                            CreatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4986),
                             Status = 0,
                             SubjectName = "J. Polski",
-                            UpdatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1168)
+                            UpdatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4986)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1174),
+                            CreatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4991),
                             Status = 0,
                             SubjectName = "J. Niemiecki",
-                            UpdatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1174)
+                            UpdatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4991)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1179),
+                            CreatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4996),
                             Status = 0,
                             SubjectName = "Matematyka",
-                            UpdatedAt = new DateTime(2023, 2, 16, 17, 43, 19, 558, DateTimeKind.Utc).AddTicks(1179)
+                            UpdatedAt = new DateTime(2023, 2, 16, 17, 22, 37, 602, DateTimeKind.Utc).AddTicks(4996)
                         });
                 });
 

@@ -45,6 +45,18 @@ namespace Books_Stock_Market.Controllers
             return RedirectToAction("SubjectEdit", "Administration");
         }
 
+        public IActionResult RejectOffer(int Id)
+        {
+            var reject = _administrationViewModelProvider.RejectOffer(Id);
+            return RedirectToAction("Requests", "Administration");
+        }
+
+        public IActionResult AcceptOffer(int Id)
+        {
+            var accept = _administrationViewModelProvider.AcceptOffer(Id);
+            return RedirectToAction("Requests", "Administration");
+        }
+
         public IActionResult Requests()
         {
             var viewModel = _administrationViewModelProvider.PrepareRequestsViewModel();

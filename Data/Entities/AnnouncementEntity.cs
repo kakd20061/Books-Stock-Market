@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Areas.Identity.Pages.Account;
+using Books_Stock_Market.Enums;
 
 namespace Books_Stock_Market.Data.Entities
 {
@@ -28,9 +29,7 @@ namespace Books_Stock_Market.Data.Entities
 
         public bool PhoneAgree { get; set; }
 
-        public bool IsChecked { get; set; }
-
-        public bool IsRejected { get; set; }
+        public StatusEnum Status { get; set; }
 
         public DateTime CreatedAt { get; set; }
 
@@ -40,8 +39,6 @@ namespace Books_Stock_Market.Data.Entities
         {
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
-            IsChecked = false;
-            IsRejected = false;
         }
     }
 }

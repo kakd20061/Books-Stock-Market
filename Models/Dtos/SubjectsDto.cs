@@ -1,4 +1,5 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using Books_Stock_Market.Enums;
 
 namespace Books_Stock_Market.Models.Dtos
 {
@@ -8,7 +9,7 @@ namespace Books_Stock_Market.Models.Dtos
 
         public string SubjectName { get; set; }
 
-        public bool isChecked { get; set; }
+        public StatusEnum Status { get; set; }
 
         public SubjectsDto()
         {
@@ -19,7 +20,7 @@ namespace Books_Stock_Market.Models.Dtos
         {
             Id = entity.Id;
             SubjectName = entity.SubjectName;
-            isChecked = entity.IsChecked;
+            Status = entity.Status;
         }
 
         public SubjectEntity ParseToEntity(bool isChecked = false)
@@ -28,7 +29,7 @@ namespace Books_Stock_Market.Models.Dtos
             {
                 Id = this.Id,
                 SubjectName = this.SubjectName,
-                IsChecked = isChecked
+                Status = StatusEnum.InProgress
             };
         }
     }
