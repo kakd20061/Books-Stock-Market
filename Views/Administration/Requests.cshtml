@@ -14,7 +14,7 @@
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-announcement" role="tabpanel" aria-labelledby="nav-announcement-tab">
+                <div class="tab-pane fade" id="nav-announcement" role="tabpanel" aria-labelledby="nav-announcement-tab">
                   <div class="row">
                       @foreach(var item in Model.Announcements)
                       {
@@ -24,7 +24,6 @@
                                       <img
                                           src="@item.PhotoUrl" />
                                   </div>
-                                  <a class="card-action" onclick="setId(@item.Id)" data-bs-toggle="modal" data-bs-target="#messageModal"><i class="fas fa-comments fa-lg"></i></a><br/>
                                   <div class="card-heading">
                                       <i class="fa-solid fa-book"></i> @item.Title (<i class="fa-solid fa-graduation-cap"></i> @item.GradeNumber)
                                   </div>
@@ -136,7 +135,7 @@
                         offerBtn.classList.add("active");
 
                         offerTab.classList.add("show");
-                        offerBtn.classList.add("active");
+                        offerTab.classList.add("active");
 
                     }
 

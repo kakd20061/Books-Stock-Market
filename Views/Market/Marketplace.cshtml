@@ -120,7 +120,8 @@
                                 </div>
                             </div>
 
-                            <script>function iclickedit() {
+                            <script>
+                                function iclickedit() {
                                     var selectedGrades = document.querySelector('input[name="grade"]:checked').value;
                                     sessionStorage.setItem("grade", selectedGrades);
 
@@ -139,7 +140,9 @@
                                     }
 
                                 }
-                                document.onload = loadIt();</script>
+                                document.onload = loadIt();
+
+                              </script>
 
                             <div class="row me-2 ms-2 mb-2">
                                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse"
@@ -329,6 +332,63 @@
             settings.onfocusout = false;
         });
     });
+
+        function filters() {
+            const radio = document.querySelector('input[name="grade"]:checked').value;
+            const cards = document.getElementsByClassName("cardHid");
+
+            let array = []
+            let checkboxes = document.querySelectorAll('input[name=subject]:checked')
+
+            for (var i = 0; i < checkboxes.length; i++) {
+                array.push(checkboxes[i].value)
+            }
+
+            if (radio == "all") {
+                for (let i = 0; i < cards.length; i++) {
+                    if (array.length > 0) {
+                        for (let j = 0; j < array.length; j++) {
+                            if (cards[i].classList.contains("subject-" + array[j])) {
+                                cards[i].style.display = "block";
+                                break;
+                            }
+                            else {
+                                cards[i].style.display = "none";
+                            }
+                        }
+                    }
+                    else {
+                        cards[i].style.display = "block";
+                    }
+                }
+            }
+            else {
+                for (let i = 0; i < cards.length; i++) {
+                    if (cards[i].classList.contains("grade-" + radio)) {
+                        if (array.length > 0) {
+                            for (let j = 0; j < array.length; j++) {
+                                if (cards[i].classList.contains("subject-" + array[j])) {
+                                    cards[i].style.display = "block";
+                                    break;
+                                }
+                                else {
+                                    cards[i].style.display = "none";
+                                }
+                            }
+                        }
+                        else {
+                            cards[i].style.display = "block";
+                        }
+                    }
+                    else {
+                        cards[i].style.display = "none";
+                    }
+                }
+            }
+
+            return false;
+        }
+        document.onload = filters();
 </script>
 @section Scripts {
     <partial name="_ValidationScriptsPartial1" />
