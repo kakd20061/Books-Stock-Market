@@ -6,102 +6,140 @@
 }
 
 
-<div class="modal" tabindex="-1"  id="respondModal">
-<div class="modal-dialog modal-dialog-centered">
-     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Add Message</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form asp-action="Respond">
+<div class="modal" tabindex="-1" id="respondModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Respond">
 
-            Message: <input asp-for="respondData.Content" class="form-control" type="text"/>
-            <span asp-validation-for="respondData.Content" class="text-danger" style="font-size: 15px;"></span>
-            <input asp-for="messageAnnId" id="announId" class="form-control" style="display:none" type="text" readonly/>
-            <input asp-for="isOffer" id="isoffer" class="form-control" style="display:none" type="text" readonly/>
-            <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
-        </form> 
-      </div>    
-    </div>  
-</div>  
-</div> 
+                    Message: <input asp-for="respondData.Content" class="form-control" type="text" />
+                    <span asp-validation-for="respondData.Content" class="text-danger" style="font-size: 15px;"></span>
+                    <input asp-for="messageAnnId" id="announId" class="form-control" style="display:none" type="text" readonly />
+                    <input asp-for="isOffer" id="isoffer" class="form-control" style="display:none" type="text" readonly />
+                    <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div class="modal" tabindex="-1"  id="respondToRespondModal">
-<div class="modal-dialog modal-dialog-centered">
-     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Add Message</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form asp-action="RespondToRespond">
+<div class="modal" tabindex="-1" id="respondToRespondModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="RespondToRespond">
 
-            Message: <input asp-for="respondToRespondData.Content" class="form-control" type="text"/>
-            <span asp-validation-for="respondToRespondData.Content" class="text-danger" style="font-size: 15px;"></span>
-            <input asp-for="messageId" id="respId" class="form-control" style="display:none" type="text" readonly/>
-            <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
-        </form> 
-      </div>    
-    </div>  
-</div>  
-</div> 
+                    Message: <input asp-for="respondToRespondData.Content" class="form-control" type="text" />
+                    <span asp-validation-for="respondToRespondData.Content" class="text-danger" style="font-size: 15px;"></span>
+                    <input asp-for="messageId" id="respId" class="form-control" style="display:none" type="text" readonly />
+                    <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container form-background p-5" style="margin-top:8em;">
-<h1 class="text-center mb-5 section-title position-relative">Messages</h1>
-<nav class="mb-3">
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <button class="nav-link active" id="incoming" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Incoming</button>
-    <button class="nav-link" id="responds" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Responds</button>
-  </div>
-</nav>
-<div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-        <div class="list-group">
-            @foreach(var item in Model.Messages)
-            {
-            <div href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1"><i class="fa-regular fa-file-lines"></i> @item.Title</h5>
-                  <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> @item.CreatedAt</small>
-                </div>
-                <p class="mb-1 text-break">@item.Content</p>
-                <small class="text-muted"><i class="fa-solid fa-user"></i> @item.Name</small>
-                <small class="text-muted float-end"><a class="btn btn-success" onclick="setIdRespond(@item.Id, false)" data-bs-toggle="modal" data-bs-target="#respondModal"><i class="fa-solid fa-envelope-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="DeleteIncoming" asp-route-id="@item.Id"><i class="fa-solid fa-trash fa-lg"></i></a></small>
-            </div>        
-            }
-            @foreach(var item in Model.MMessages)
-            {
-            <div href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1"><i class="fa-regular fa-file-lines"></i> @item.Title</h5>
-                  <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> @item.CreatedAt</small>
-                </div>
-                <p class="mb-1 text-break">@item.Content</p>
-                <small class="text-muted"><i class="fa-solid fa-user"></i> @item.Name</small>
-                <small class="text-muted float-end"><a class="btn btn-success" onclick="setIdRespond(@item.Id, true)" data-bs-toggle="modal" data-bs-target="#respondModal"><i class="fa-solid fa-envelope-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="DeleteMMessage" asp-route-id="@item.Id"><i class="fa-solid fa-trash fa-lg"></i></a></small>
-            </div>        
-            }
+    <h1 class="text-center mb-5 section-title position-relative">Messages</h1>
+    <nav class="mb-3">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link" id="incoming" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" onclick="resMessages()">Incoming</button>
+            <button class="nav-link" id="responds" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" onclick="incMessages()">Responds</button>
         </div>
-    </div>
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-        <div class="list-group">
-            @foreach(var item in Model.RespondMessages)
-            {
-            <div href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1"><i class="fa-regular fa-file-lines"></i> @item.Title</h5>
-                  <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> @item.CreatedAt</small>
-                </div>
-                <p class="mb-1 text-break">@item.Content</p>
-                <small class="text-muted"><i class="fa-solid fa-user"></i> @item.Name</small>
-                <small class="text-muted float-end"><a class="btn btn-success" onclick="setIdRespondToRespond(@item.Id)" data-bs-toggle="modal" data-bs-target="#respondToRespondModal"><i class="fa-solid fa-envelope-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="DeleteResponds" asp-route-id="@item.Id"><i class="fa-solid fa-trash fa-lg"></i></a></small>
-            </div>        
-            }
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <div class="list-group">
+                @foreach (var item in Model.Messages)
+                {
+                    <div href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1"><i class="fa-regular fa-file-lines"></i> @item.Title</h5>
+                            <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> @item.CreatedAt</small>
+                        </div>
+                        <p class="mb-1 text-break">@item.Content</p>
+                        <small class="text-muted"><i class="fa-solid fa-user"></i> @item.Name</small>
+                        <small class="text-muted float-end"><a class="btn btn-success" onclick="setIdRespond(@item.Id, false)" data-bs-toggle="modal" data-bs-target="#respondModal"><i class="fa-solid fa-envelope-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="DeleteIncoming" asp-route-id="@item.Id"><i class="fa-solid fa-trash fa-lg"></i></a></small>
+                    </div>
+                }
+                @foreach (var item in Model.MMessages)
+                {
+                    <div href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1"><i class="fa-regular fa-file-lines"></i> @item.Title</h5>
+                            <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> @item.CreatedAt</small>
+                        </div>
+                        <p class="mb-1 text-break">@item.Content</p>
+                        <small class="text-muted"><i class="fa-solid fa-user"></i> @item.Name</small>
+                        <small class="text-muted float-end"><a class="btn btn-success" onclick="setIdRespond(@item.Id, true)" data-bs-toggle="modal" data-bs-target="#respondModal"><i class="fa-solid fa-envelope-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="DeleteMMessage" asp-route-id="@item.Id"><i class="fa-solid fa-trash fa-lg"></i></a></small>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <div class="list-group">
+                @foreach (var item in Model.RespondMessages)
+                {
+                    <div href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1"><i class="fa-regular fa-file-lines"></i> @item.Title</h5>
+                            <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> @item.CreatedAt</small>
+                        </div>
+                        <p class="mb-1 text-break">@item.Content</p>
+                        <small class="text-muted"><i class="fa-solid fa-user"></i> @item.Name</small>
+                        <small class="text-muted float-end"><a class="btn btn-success" onclick="setIdRespondToRespond(@item.Id)" data-bs-toggle="modal" data-bs-target="#respondToRespondModal"><i class="fa-solid fa-envelope-circle-check fa-lg"></i></a> <a class="btn btn-danger" asp-action="DeleteResponds" asp-route-id="@item.Id"><i class="fa-solid fa-trash fa-lg"></i></a></small>
+                    </div>
+                }
+            </div>
         </div>
     </div>
 </div>
-</div>
+
+
+<script>function resMessages() {
+        localStorage.setItem('messageskey', true);
+    }
+    function incMessages() {
+        localStorage.setItem('messageskey', false);
+    }
+
+    function loaded() {
+        if (localStorage.getItem('messageskey') == 'true') {
+
+            incBtn.classList.add("active");
+            incBtn.setAttribute('aria-checked', 'true');
+
+            homeTab.classList.add("show");
+            homeTab.classList.add("active");
+
+
+
+        } else if (localStorage.getItem('messageskey') == 'false') {
+
+            resBtn.setAttribute('aria-checked', 'true');
+            resBtn.classList.add("active");
+
+            respondTab.classList.add("show");
+            respondTab.classList.add("active");
+
+        }
+    }
+
+    var incBtn = document.getElementById("incoming");
+    var resBtn = document.getElementById("responds");
+
+    var homeTab = document.getElementById("nav-home")
+    var respondTab = document.getElementById("nav-profile")
+
+    document.onload = loaded();</script>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial1" />

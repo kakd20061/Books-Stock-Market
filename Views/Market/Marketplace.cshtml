@@ -68,21 +68,21 @@
 
                             <div class="row me-2 ms-2 mb-2">
                                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFilter1" aria-expanded="false"
-                                    aria-controls="collapseExample">
+                                        data-bs-target="#collapseFilter1" aria-expanded="false"
+                                        aria-controls="collapseExample">
                                     Grade
                                 </button>
                                 <div class="collapse show p-3" id="collapseFilter1">
 
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" value="all" name="grade" id="ag" checked>
+                                        <input onclick="iclickedit()" class="form-check-input" type="radio" value="all" name="grade" id="ag" checked>
                                         <label class="form-check-label" for="ag">
                                             all Grades
                                         </label>
                                     </div>
 
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" value="1" name="grade" id="g1">
+                                        <input onclick="iclickedit()" class="form-check-input" type="radio" value="1" name="grade" id="g1">
                                         <label class="form-check-label" for="g1">
                                             1st Grade
                                         </label>
@@ -90,28 +90,28 @@
 
 
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" value="2" name="grade" id="g2">
+                                        <input onclick="iclickedit()" class="form-check-input" type="radio" value="2" name="grade" id="g2">
                                         <label class="form-check-label" for="g2">
                                             2nd Grade
                                         </label>
                                     </div>
 
-                                                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" value="3" name="grade" id="g3">
+                                    <div class="form-check">
+                                        <input onclick="iclickedit()" class="form-check-input" type="radio" value="3" name="grade" id="g3">
                                         <label class="form-check-label" for="g3">
                                             3rd Grade
                                         </label>
                                     </div>
 
-                                                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" value="4" name="grade" id="g4">
+                                    <div class="form-check">
+                                        <input onclick="iclickedit()" class="form-check-input" type="radio" value="4" name="grade" id="g4">
                                         <label class="form-check-label" for="g4">
                                             4th Grade
                                         </label>
                                     </div>
 
-                                                                        <div class="form-check">
-                                        <input class="form-check-input" type="radio" value="5" name="grade" id="g5">
+                                    <div class="form-check">
+                                        <input onclick="iclickedit()" class="form-check-input" type="radio" value="5" name="grade" id="g5">
                                         <label class="form-check-label" for="g5">
                                             5th Grade
                                         </label>
@@ -120,26 +120,72 @@
                                 </div>
                             </div>
 
+                            <script>function iclickedit() {
+                                    var selectedGrades = document.querySelector('input[name="grade"]:checked').value;
+                                    sessionStorage.setItem("grade", selectedGrades);
 
+                                }
+
+                                function loadIt() {
+
+
+                                    if (sessionStorage.getItem("grade") == 'all') {
+                                        var Btn = document.getElementById('ag');
+                                        Btn.checked = true;
+                                    }
+                                    else {
+                                        var Btn = document.getElementById('g' + sessionStorage.getItem("grade"));
+                                        Btn.checked = true;
+                                    }
+
+                                }
+                                document.onload = loadIt();</script>
 
                             <div class="row me-2 ms-2 mb-2">
                                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFilter2" aria-expanded="false"
-                                    aria-controls="collapseExample">
+                                        data-bs-target="#collapseFilter2" aria-expanded="false"
+                                        aria-controls="collapseExample">
                                     Subjects
                                 </button>
                                 <div class="collapse show p-3" id="collapseFilter2">
-                                    @foreach(var item in Model.Subjects)
+                                    @foreach (var item in Model.Subjects)
                                     {
-                                            string formatted1 = item.SubjectName.Replace(" ", "-");
-                                            <div class="form-check">
-                                                <input class="form-check-input" name="subject" value="@formatted1" type="checkbox" id="@item.Id-fil">
-                                                <label class="form-check-label" for="@item.Id-fil">
-                                                    @item.SubjectName
-                                                </label>
-                                            </div>
+                                        string formatted1 = item.SubjectName.Replace(" ", "-");
+                                        <div class="form-check">
+                                            <input onclick="iclickedsub()" class="form-check-input" name="subject" value="@formatted1" type="checkbox" id="@item.Id-fil">
+                                            <label class="form-check-label" for="@item.Id-fil">
+                                                @item.SubjectName
+                                            </label>
+                                        </div>
                                     }
                                 </div>
+                                <script>function iclickedsub() {
+                                        let selectedSubjects = [];
+
+                                        $('input[name="subject"]:checked').each(function () {
+                                            var Subject = {};
+                                            Subject['id'] = $(this).attr("id");
+                                            Subject['value'] = $(this).val();
+                                            selectedSubjects.push(Subject);
+                                        });
+
+                                        const json = JSON.stringify(selectedSubjects);
+                                        sessionStorage.setItem("subjects", json);
+
+                                    }
+
+                                    function loadSubs() {
+                                        const str = localStorage.getItem('subjects');
+                                        let subjects = [];
+                                        subjects = JSON.parse(sessionStorage.subjects);
+
+                                        subjects.forEach(function (value, i) {
+                                            var Btn = document.getElementById(subjects[i].id);
+                                            Btn.checked = true;
+                                        });
+
+                                    }
+                                    document.onload = loadSubs();</script>
                             </div>
                             <div class="row m-5">
                                 <button type="submit" class="btn btn-success">Save</button>

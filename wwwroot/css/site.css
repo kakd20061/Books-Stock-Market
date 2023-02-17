@@ -340,12 +340,21 @@ input[type="date"]
     color: #6c757d;
 }
 
+#offers[aria-selected="false"] {
+    color: #6c757d;
+}
+
 #incoming[aria-selected="true"] {
     background-color: #F95959;
     color: #ffffff;
 }
 
 #responds[aria-selected="true"] {
+    background-color: #F95959;
+    color: #ffffff;
+}
+
+#offers[aria-selected="true"] {
     background-color: #F95959;
     color: #ffffff;
 }

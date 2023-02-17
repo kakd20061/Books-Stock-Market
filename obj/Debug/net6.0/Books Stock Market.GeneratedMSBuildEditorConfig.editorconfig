@@ -9,125 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Books_Stock_Market
 build_property.RootNamespace = Books_Stock_Market
-build_property.ProjectDir = D:\projektyVisualStudio\Books Stock Market\
+build_property.ProjectDir = /Users/michalbialoz/MyProjects/Books-Stock-Market/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\projektyVisualStudio\Books Stock Market
+build_property.MSBuildProjectDirectory = /Users/michalbialoz/MyProjects/Books-Stock-Market
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/Account/Lockout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/Account/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Administration/AdminMain.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQWRtaW5NYWluLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Administration/AdminMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vQWRtaW5NYWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Administration/AdminManage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQWRtaW5NYW5hZ2UuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Administration/AdminManage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vQWRtaW5NYW5hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Administration/EditOffer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdE9mZmVyLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Administration/EditOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vRWRpdE9mZmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Administration/Requests.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cUmVxdWVzdHMuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Administration/Requests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vUmVxdWVzdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Administration/SubjectEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cU3ViamVjdEVkaXQuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Administration/SubjectEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5pc3RyYXRpb24vU3ViamVjdEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Main/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBYm91dC5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Main/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Main/Home.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxIb21lLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Main/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9Ib21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Main/RegisterSummary.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxSZWdpc3RlclN1bW1hcnkuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Main/RegisterSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9SZWdpc3RlclN1bW1hcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Market/Announcement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XEFubm91bmNlbWVudC5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Market/Announcement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFya2V0L0Fubm91bmNlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Market/AnnouncementManage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XEFubm91bmNlbWVudE1hbmFnZS5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Market/AnnouncementManage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFya2V0L0Fubm91bmNlbWVudE1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Market/Marketplace.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XE1hcmtldHBsYWNlLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Market/Marketplace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFya2V0L01hcmtldHBsYWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Market/Messages.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XE1lc3NhZ2VzLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Market/Messages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFya2V0L01lc3NhZ2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Market/Offer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XE9mZmVyLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Market/Offer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFya2V0L09mZmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Shared/_AdministrationLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbmlzdHJhdGlvbkxheW91dC5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Shared/_AdministrationLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbmlzdHJhdGlvbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Shared/_ValidationScriptsPartial1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwxLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Shared/_ValidationScriptsPartial1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projektyVisualStudio/Books Stock Market/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-gxhm1nqg3k
+[/Users/michalbialoz/MyProjects/Books-Stock-Market/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ppnj9vecnt
