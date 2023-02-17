@@ -167,6 +167,7 @@ namespace Books_Stock_Market.Services
         public bool AddSubject(SubjectsDto formData)
         {
             var entity = formData.ParseToEntity(true);
+            entity.Status = Enums.StatusEnum.Accepted;
             _subjectsRepository.Add(entity);
             return true;
         }

@@ -23,7 +23,9 @@
         <form asp-action="MMessage">
 
             Message: <input asp-for="modalData.Content" class="form-control" type="text"/>
+            <span asp-validation-for="modalData.Content" class="text-danger" style="font-size: 15px;"></span>
             <input asp-for="Id" id="offId" class="form-control" style="display:none" type="text" readonly/>
+
             <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
         </form> 
       </div>    
@@ -34,13 +36,13 @@
 
   <div class="row  gx-0 mt-5">
         <div class="col">
-            <form class="d-flex m-5" role="search" asp-action="Marketplace">
+            <form class="d-flex m-5 searchC" role="search" asp-action="Marketplace">
                 <div class="box justify-content-center">
 
                     <button class="btn" id="search-btn" type="submit"><i id="search-icon" class="fa fa-search"
                             aria-hidden="true"></i></button>
-                    <input class="form-control me-2" asp-for="content" id="searchbar" type="search" placeholder="Search"
-                        aria-label="Search" onchange="">
+                    <input class="form-control me-2 ignore" asp-for="content" id="searchbar" type="search" placeholder="Search"
+                        aria-label="Search">
                 </div>
             </form>
         </div>
@@ -271,3 +273,17 @@
         </div>
     </div>
 </div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(function () {
+            var settings = $.data($('.searchC')[0], 'validator').settings;
+            settings.ignore = ".ignore"
+            settings.onkeyup = false;
+            settings.onfocusout = false;
+        });
+    });
+</script>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial1" />
+}

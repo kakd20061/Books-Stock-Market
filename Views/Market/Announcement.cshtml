@@ -19,6 +19,7 @@
 
             Message: <input asp-for="modalData.Content" class="form-control" type="text"/>
             <input asp-for="Id" id="annId" class="form-control" style="display:none" type="text" readonly/>
+            <span asp-validation-for="modalData.Content" class="text-danger" style="font-size: 15px;"></span>
             <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
         </form> 
       </div>    
@@ -68,3 +69,7 @@
           }
       </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial1" />
+}

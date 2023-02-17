@@ -1,7 +1,10 @@
-﻿using Books_Stock_Market.Data;
+﻿using Books_Stock_Market.Areas.Identity.Pages.Account;
+using Books_Stock_Market.Data;
 using Books_Stock_Market.Models.Dtos;
 using Books_Stock_Market.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient.Server;
 
 namespace Books_Stock_Market.Controllers
 {
@@ -9,100 +12,152 @@ namespace Books_Stock_Market.Controllers
     {
         private readonly IAdministrationViewModelProvider _administrationViewModelProvider;
         private readonly ApplicationDbContext _dbContext;
+        private readonly SignInManager<PageUser> _signInManager;
 
-
-        public AdministrationController(IAdministrationViewModelProvider adminstrationViewModelProvider, ApplicationDbContext dbContext)
+        public AdministrationController(IAdministrationViewModelProvider adminstrationViewModelProvider, ApplicationDbContext dbContext, SignInManager<PageUser> signInManager)
         {
             _administrationViewModelProvider = adminstrationViewModelProvider;
             _dbContext = dbContext;
+            _signInManager = signInManager;
         }
 
         public IActionResult AdminMain()
         {
-            var viewModel = _administrationViewModelProvider.PrepareAdminMainViewModel();
-            return View(viewModel);
-        }
-
-        public IActionResult EditOffer()
-        {
-            return View();
+            if(_administrationViewModelProvider.AdminReturn(User.Identity?.Name)&&_signInManager.IsSignedIn(User))
+            {
+                var viewModel = _administrationViewModelProvider.PrepareAdminMainViewModel();
+                return View(viewModel);
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
         public IActionResult SubjectEdit()
         {
-            var viewModel = _administrationViewModelProvider.PrepareSubjectsEditViewModel();
-            return View(viewModel);
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var viewModel = _administrationViewModelProvider.PrepareSubjectsEditViewModel();
+                return View(viewModel);
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult AddSubject(SubjectsDto formData)
         {
-            var add = _administrationViewModelProvider.AddSubject(formData);
-            return RedirectToAction("SubjectEdit", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var add = _administrationViewModelProvider.AddSubject(formData);
+                return RedirectToAction("SubjectEdit", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult DeleteSubject(int Id)
         {
-            var reject = _administrationViewModelProvider.RejectSubject(Id);
-            return RedirectToAction("SubjectEdit", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var reject = _administrationViewModelProvider.RejectSubject(Id);
+                return RedirectToAction("SubjectEdit", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult RejectOffer(int Id)
         {
-            var reject = _administrationViewModelProvider.RejectOffer(Id);
-            return RedirectToAction("Requests", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var reject = _administrationViewModelProvider.RejectOffer(Id);
+                return RedirectToAction("Requests", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult AcceptOffer(int Id)
         {
-            var accept = _administrationViewModelProvider.AcceptOffer(Id);
-            return RedirectToAction("Requests", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var accept = _administrationViewModelProvider.AcceptOffer(Id);
+                return RedirectToAction("Requests", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult Requests()
         {
-            var viewModel = _administrationViewModelProvider.PrepareRequestsViewModel();
-            return View(viewModel);
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var viewModel = _administrationViewModelProvider.PrepareRequestsViewModel();
+                return View(viewModel);
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult AdminManage()
         {
-            var viewModel = _administrationViewModelProvider.PrepareAdminManageViewModel();
-            return View(viewModel);
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var viewModel = _administrationViewModelProvider.PrepareAdminManageViewModel();
+                return View(viewModel);
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult AcceptAnn(int Id)
         {
-            var accept = _administrationViewModelProvider.AcceptAnnouncement(Id);
-            return RedirectToAction("Requests", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var accept = _administrationViewModelProvider.AcceptAnnouncement(Id);
+                return RedirectToAction("Requests", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult RejectAnn(int Id)
         {
-            var reject = _administrationViewModelProvider.RejectAnnouncement(Id);
-            return RedirectToAction("Requests", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var reject = _administrationViewModelProvider.RejectAnnouncement(Id);
+                return RedirectToAction("Requests", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult AcceptSubject(int Id)
         {
-            var accept = _administrationViewModelProvider.AcceptSubject(Id);
-            return RedirectToAction("Requests", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var accept = _administrationViewModelProvider.AcceptSubject(Id);
+                return RedirectToAction("Requests", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult RejectSubject(int Id)
         {
-            var reject = _administrationViewModelProvider.RejectSubject(Id);
-            return RedirectToAction("Requests", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var reject = _administrationViewModelProvider.RejectSubject(Id);
+                return RedirectToAction("Requests", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult AddAdminGrands(AdministrationDto formData)
         {
-            var add = _administrationViewModelProvider.AddAdminGrands(formData);
-            return RedirectToAction("AdminManage", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var add = _administrationViewModelProvider.AddAdminGrands(formData);
+                return RedirectToAction("AdminManage", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult RemoveAdminGrands(int Id)
         {
-            var add = _administrationViewModelProvider.RemoveAdminGrands(Id);
-            return RedirectToAction("AdminManage", "Administration");
+            if (_administrationViewModelProvider.AdminReturn(User.Identity?.Name) && _signInManager.IsSignedIn(User))
+            {
+                var add = _administrationViewModelProvider.RemoveAdminGrands(Id);
+                return RedirectToAction("AdminManage", "Administration");
+            }
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
     }
 }

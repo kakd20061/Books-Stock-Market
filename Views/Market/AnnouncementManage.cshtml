@@ -16,6 +16,7 @@
         <form asp-action="AddSubject">
             Subject name: <input asp-for="subjectData.SubjectName" class="form-control" type="text"/>
             <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
+            <span asp-validation-for="subjectData.SubjectName" class="text-danger" style="font-size: 15px;"></span>
         </form> 
       </div>    
     </div>  
@@ -30,10 +31,12 @@
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Book title</label>
             <input asp-for="formData.Title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <span asp-validation-for="formData.Title" class="text-danger"></span>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Photo Url</label>
             <input asp-for="formData.PhotoUrl" type="text" class="form-control" id="exampleInputPassword1">
+            <span asp-validation-for="formData.PhotoUrl" class="text-danger"></span>
           </div>
           <div class="mb-3">
             <label for="subject" class="form-label">Subject</label>
@@ -103,3 +106,7 @@
           }
       </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial1" />
+}

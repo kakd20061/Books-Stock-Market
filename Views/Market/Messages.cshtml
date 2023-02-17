@@ -17,6 +17,7 @@
         <form asp-action="Respond">
 
             Message: <input asp-for="respondData.Content" class="form-control" type="text"/>
+            <span asp-validation-for="respondData.Content" class="text-danger" style="font-size: 15px;"></span>
             <input asp-for="messageAnnId" id="announId" class="form-control" style="display:none" type="text" readonly/>
             <input asp-for="isOffer" id="isoffer" class="form-control" style="display:none" type="text" readonly/>
             <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
@@ -37,6 +38,7 @@
         <form asp-action="RespondToRespond">
 
             Message: <input asp-for="respondToRespondData.Content" class="form-control" type="text"/>
+            <span asp-validation-for="respondToRespondData.Content" class="text-danger" style="font-size: 15px;"></span>
             <input asp-for="messageId" id="respId" class="form-control" style="display:none" type="text" readonly/>
             <button class="form-control btn btn-success border-0 mt-3 w-25 float-end" type="submit">Send</button>
         </form> 
@@ -100,3 +102,7 @@
     </div>
 </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial1" />
+}

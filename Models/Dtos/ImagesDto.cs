@@ -1,26 +1,34 @@
 ﻿using Books_Stock_Market.Data.Entities;
 using Books_Stock_Market.Enums;
+using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
 
 namespace Books_Stock_Market.Models.Dtos
 {
     public class ImagesDto
     {
         public int Id { get; set; }
-
+        [Required]
+        [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 5)]
+        [DataType(DataType.Text)]
+        [Display(Name = "Title")]
         public string Title { get; set; }
 
         public string ImageName { get; set; }
-
+        [Required]
+        [Range(0, int.MaxValue, ErrorMessage = "Please enter valid integer Number")]
+        [Display(Name = "Price")]
         public int Price { get; set; }
-
         public string Email { get; set; }
-
+        [Required]
+        [Display(Name = "Image file")]
         public IFormFile ImageFile { get; set; }
-
+        [Required]
+        [StringLength(500, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 10)]
+        [DataType(DataType.Text)]
+        [Display(Name = "Description")]
         public string Description { get; set; }
-
         public string Subject { get; set; }
-
         public string Grade { get; set; }
 
         public DateTime CreatedAt { get; set; }

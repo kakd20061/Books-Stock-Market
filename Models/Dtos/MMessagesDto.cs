@@ -1,4 +1,6 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
 
 namespace Books_Stock_Market.Models.Dtos
 {
@@ -8,6 +10,10 @@ namespace Books_Stock_Market.Models.Dtos
 
         public string Title { get; set; }
 
+        [Required]
+        [StringLength(500, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 5)]
+        [DataType(DataType.Text)]
+        [Display(Name = "Content")]
         public string Content { get; set; }
 
         public string Name { get; set; }

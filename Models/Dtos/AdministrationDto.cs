@@ -1,11 +1,15 @@
 ﻿using Books_Stock_Market.Data.Entities;
+using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
 
 namespace Books_Stock_Market.Models.Dtos
 {
     public class AdministrationDto
     {
         public int Id { get; set; }
-
+        [Required]
+        [EmailAddress]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
         public DateTime CreatedAt { get; set; }

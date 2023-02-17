@@ -11,7 +11,8 @@
         <h1 class="text-center mb-5 section-title position-relative">Add Admin Permissions</h1>
         <form asp-action="AddAdminGrands" class="text-lg-center mb-5">
           <div class="mb-3">
-            <label for="UserMail" class="form-label">User Mail</label>
+            <label for="UserMail" class="form-label">User Mail</label><br/>
+            <span asp-validation-for="formData.Email" class="text-danger"></span>
             <input asp-for="formData.Email" type="text" class="form-control" id="UserMail">
           </div>
 
@@ -37,3 +38,7 @@
         </ul>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial1" />
+}

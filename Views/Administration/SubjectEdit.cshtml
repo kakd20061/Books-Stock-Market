@@ -11,7 +11,8 @@
         <h1 class="text-center mb-5 section-title position-relative">Add New Subject</h1>
         <form asp-action="AddSubject" class="text-lg-center mb-5">
           <div class="mb-3">
-            <label for="UserMail" class="form-label">Subject Name</label>
+            <label for="UserMail" class="form-label">Subject Name</label><br />
+            <span asp-validation-for="formData.SubjectName" class="text-danger"></span>
             <input asp-for="formData.SubjectName" type="text" class="form-control" id="SubjectName">
           </div>
 
@@ -29,3 +30,7 @@
         </ul>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial1" />
+}
