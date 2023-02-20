@@ -374,6 +374,7 @@ h2 {
         width: 100px;
         position: absolute;
         margin: 0 auto;
+        margin-bottom: 5px!important;
         height: 3px;
         background: #F95959;
         left: 0;
