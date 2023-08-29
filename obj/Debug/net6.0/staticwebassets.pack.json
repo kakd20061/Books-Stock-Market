@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/Books Stock Market.bundle.scp.css"
     },
     {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -153,6 +157,10 @@
       "PackagePath": "staticwebassets/img/OfferImages/326807701_872944357276719_7837845401349412800_n234308279.jpg"
     },
     {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/41f2edc0-1bb0-4be8-bb5a-5baba49ea8b3_r-matematyka-1-liceum-i-technikum-podrecznik-klasa-1-zakres-rozszerzony230133079.jpg",
+      "PackagePath": "staticwebassets/img/OfferImages/41f2edc0-1bb0-4be8-bb5a-5baba49ea8b3_r-matematyka-1-liceum-i-technikum-podrecznik-klasa-1-zakres-rozszerzony230133079.jpg"
+    },
+    {
       "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/MicrosoftTeams-image231426163.png",
       "PackagePath": "staticwebassets/img/OfferImages/MicrosoftTeams-image231426163.png"
     },
@@ -167,6 +175,38 @@
     {
       "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/SecondSlide234246017.png",
       "PackagePath": "staticwebassets/img/OfferImages/SecondSlide234246017.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/af5d3a9c4a24ab7bb7326412a06c230338900.jpeg",
+      "PackagePath": "staticwebassets/img/OfferImages/af5d3a9c4a24ab7bb7326412a06c230338900.jpeg"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/biol231944352.jpg",
+      "PackagePath": "staticwebassets/img/OfferImages/biol231944352.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/fd8fa06a4a85a1edee8fbf151a97230223495.jpeg",
+      "PackagePath": "staticwebassets/img/OfferImages/fd8fa06a4a85a1edee8fbf151a97230223495.jpeg"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/image;s=768x1024230053242.webp",
+      "PackagePath": "staticwebassets/img/OfferImages/image;s=768x1024230053242.webp"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/jniitr230724058.jpg",
+      "PackagePath": "staticwebassets/img/OfferImages/jniitr230724058.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/jniitr232510114.jpg",
+      "PackagePath": "staticwebassets/img/OfferImages/jniitr232510114.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/kajt233339524.jpg",
+      "PackagePath": "staticwebassets/img/OfferImages/kajt233339524.jpg"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/logo233354733.png",
+      "PackagePath": "staticwebassets/img/OfferImages/logo233354733.png"
     },
     {
       "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/OfferImages/photo3231646794.jpg",
@@ -187,6 +227,10 @@
     {
       "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/about.png",
       "PackagePath": "staticwebassets/img/about.png"
+    },
+    {
+      "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/about.svg",
+      "PackagePath": "staticwebassets/img/about.svg"
     },
     {
       "Id": "/Users/michalbialoz/MyProjects/ShowOff/Books-Stock-Market/wwwroot/img/kajt.jpg",
